@@ -1,0 +1,265 @@
+/*================================== newsletter home page 2  ================================*/
+.newsletter_wrap {
+    padding: 90px 0 100px;
+    background: #3b1d99 url("../image/banner/dot-bg.jpg") no-repeat scroll center 0 / cover;
+    .newsletter_heading {
+        .newsletter_title {
+            font-size: 30px;
+            line-height: 40px;
+            font-family: $fontassistant;
+            font-weight: $f-weight-blold;
+            color: $theme-colortwo;
+            text-transform: capitalize;
+            margin-bottom: 55px;
+        }
+    }
+}
+.newsletter_content {
+    position: relative;
+    max-width: 428px;
+    width: 100%;
+    margin: 0 auto;
+    .subscribe_box {
+        .subcribes {
+            position: relative;
+
+            input {
+                border-radius: 45px;
+                z-index: 0;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+                background: #fff;
+                color: #1b212f;
+                font-family: $fontassistant;
+                font-weight: $f-weight-r;
+                line-height: 30px;
+                border: 1px solid #fff;
+                height: 52px;
+                padding: 0px 0px 0px 40px;
+                &::placeholder {
+                    color: #d1cfce;
+                }
+            }
+            .Appily_btn {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                text-transform: uppercase;
+                transform: translateY(-50%);
+                z-index: 3;
+                background: $themecolorthree;
+                width: 120px;
+                height: 52px;
+                border-radius: 0 45px 45px 0;
+                color: $white-color;
+                @include transition(0.5s);
+                &:focus {
+                    box-shadow: none;
+                }
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}
+
+
+/*================================== newsletter home page 3  ================================*/
+.newsletter_wrap.home3 {
+    background: #f7f7f7;
+    .newsletter_heading {
+        .newsletter_title {
+            font-family: $font;
+            font-weight: $f-weight-blold;
+        }
+    }
+    .newsletter_content {
+        .subscribe_box {
+            .subcribes {
+                input {
+                    font-size: $f-size;
+                    font-family: $font;
+                    font-weight: $f-weight-r;
+                    color: $theme-colortwo;
+                }
+                .Appily_btn {
+                    font-family: $font;
+                    font-size: 14px;
+                    font-weight: $f-weight-blold;
+                    background: $themecolorthree;
+                    width: auto;
+                    padding: 0 21px;
+                }
+            }
+        }
+    }
+}
+
+/*================================== contact page  ================================*/
+.contact_list {
+    padding: 150px 0 120px;
+    .single_contact_item {
+        border: 1px solid #e2e2e2;
+        border-radius: 5px;
+        padding: 35px 15px 35px 30px;
+        background-color: rgb(255, 237, 227);
+        @include transition(0.5s);
+        margin-bottom: 30px;
+        overflow: hidden;
+
+        .phone_icon {
+            a {
+                font-size: 40px;
+                color: $themecolorthree;
+                display: inline-block;
+                @include transition(0.5s);
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        p {
+            font-family: $font;
+            font-weight: $f-weight-blold;
+            color: $theme-colortwo;
+            text-transform: capitalize;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #e0d2ca;
+            width: 160px;
+            margin-bottom: 20px;
+            @include transition(0.5s);
+        }
+        .phone_itemone {
+            display: inline-block;
+            font-family: $fontassistant;
+            font-weight: $f-weight-semi;
+            font-size: 18px;
+            color: #333333;
+            line-height: 30px;
+            @include transition(0.5s);
+            text-decoration: none;
+        }
+        .phone_itemtwo {
+            display: inline-block;
+            font-family: $fontassistant;
+            font-weight: $f-weight-semi;
+            font-size: 18px;
+            color: #333333;
+            @include transition(0.5s);
+            text-decoration: none;
+        }
+        &:hover {
+            .phone_icon a {
+                color: $white-color;
+                text-decoration: none;
+            }
+            p {
+                color: $white-color;
+            }
+            .phone_itemone {
+                color: $white-color;
+            }
+            .phone_itemtwo {
+                color: $white-color;
+            }
+            background: $theme-backround;
+            border: 1px solid $theme-backround;
+            box-shadow: -4.198px 21.596px 64.4px 5.6px rgba(51, 51, 51, 0.1);
+        }
+        &.itemfour {
+            &:hover {
+                .contact_social_item {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+        .contact_social_item {
+            margin-bottom: 20px;
+            ul {
+                li {
+                    display: inline-block;
+                    margin-right: 10px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a {
+                        border: 1px solid #d2d0ce;
+                        color: $theme-colortwo;
+                        width: 36px;
+                        height: 36px;
+                        line-height: 36px;
+                        text-align: center;
+                        display: inline-block;
+                        border-radius: 50%;
+                        @include transition(0.5s);
+                        &:hover {
+                            text-decoration: none;
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*================================== contact form css  ================================*/
+
+.contact_messae_wrap {
+    position: relative;
+    padding: 100px 0 130px;
+    background: #f8f8f8;
+    .google_map_show {
+        position: static;
+        display: block;
+        .google_map {
+            position: static;
+            display: block;
+            iframe {
+                position: absolute;
+                left: 120px;
+                top: 100px;
+                width: 40%;
+                height: 560px;
+            }
+        }
+    }
+    .comment_response {
+        margin-top: 40px;
+        .contact_form {
+            .form-control {
+                font-family: $fontassistant;
+                font-weight: $f-weight-semi;
+                color: #8f8f8f;
+                font-size: $f-size;
+                line-height: 28px;
+                box-shadow: none;
+                border: none;
+                outline: none;
+                margin-bottom: 35px;
+                border-radius: 0;
+                height: 50px;
+                padding: 12px 0;
+                border-bottom: 1px solid #d1d3d5;
+                background: transparent;
+                @include transition(0.5s);
+
+                &::placeholder {
+                    color: #8f8f8f;
+                }
+
+                &:focus {
+                    box-shadow: 0px 20px 40px 0px rgba(8, 22, 113, 0.03);
+                }
+            }
+            textarea.form-control {
+                min-height: 120px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+}

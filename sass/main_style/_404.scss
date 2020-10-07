@@ -1,0 +1,23 @@
+/*================================== 404 css ================================*/
+.Appily_Error_wrap {
+    padding: 150px 0;
+    .error_content {
+        img {
+        }
+        .error_heading {
+            font-family: $font;
+            font-weight: $f-weight-blold;
+            font-size: 24px;
+            color: $theme-colortwo;
+        }
+        .error_pra {
+            font-family: $fontassistant;
+            font-weight: $f-weight-semi;
+            font-size: 18px;
+            color: $theme-colortwo;
+        }
+        .primary_Btn {
+            font-family: $fontassistant;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+/*======================================== happy client area =========================================*/
+.happy_client_area {
+    padding: 75px 0;
+    .single_happy_client {
+        img {
+        }
+        .happy_details {
+            font-family: $font;
+            font-weight: $f-weight-blold;
+            font-size: 24px;
+            line-height: $l-hight;
+            color: #666666;
+        }
+        .happy_count {
+            font-family: $font;
+            line-height: 30px;
+            font-size: 48px;
+            font-weight: $f-weight-blold;
+            color: $theme-colortwo;
+        }
+    }
+}

@@ -1,0 +1,246 @@
+/*================================== home features page 1  ================================*/
+.feature_wrap {
+    overflow: hidden;
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 80px;
+    .featureswrap_heading {
+        max-width: 725px;
+        width: 100%;
+        display: block;
+        margin: 0 auto 60px;
+
+        .feature_Heading_Home {
+            font-size: 30px;
+            font-weight: $f-weight-blold;
+            line-height: 48px;
+            color: #1b212f;
+        }
+    }
+    .featureswrap_Details {
+        padding: 45px 30px;
+        @include transition(0.5s);
+        cursor: crosshair;
+        img {
+        }
+        .featureswrap_min_head {
+            font-family: $font;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 26px;
+            color: #1b212f;
+            text-transform: capitalize;
+        }
+        .featureswrap_Pra {
+            font-size: $f-size;
+            font-weight: $f-weight-r;
+            color: $theme-color;
+            line-height: $l-hight;
+            font-family: $font;
+        }
+        .featureswrap_button {
+            font-size: $f-size;
+            font-weight: $f-weight-semi;
+            line-height: 26px;
+            color: $theme-colortwo;
+            text-transform: capitalize;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        &:hover {
+            border-radius: 3px;
+            box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.06);
+            background-color: $white-bg;
+        }
+    }
+}
+
+/*================================== home page 2 Valuable Features  ================================*/
+
+.section_head_title {
+    .head_title_mini {
+        text-align: center;
+        color: $theme-colortwo;
+        font-family: $fontassistant;
+        line-height: $l-hight;
+        font-weight: $f-weight-blold;
+        margin-bottom: 20px;
+    }
+    .section_valu_pra {
+        .valu_pra {
+            font-size: $f-size;
+            color: $theme-colortwo;
+            font-family: $fontassistant;
+            line-height: 24px;
+            font-weight: $f-weight-r;
+            max-width: 465px;
+            width: 100%;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+    }
+}
+.valuable_features_wrapper.hometwo_valu {
+    padding: 70px 0 67px;
+    .valu_pra {
+        margin: 0 auto 60px;
+    }
+} 
+
+.feature_box {
+    img {
+    }
+    .feature_box_head {
+        color: $theme-colortwo;
+        font-size: 22px;
+        font-weight: $f-weight-semi;
+        line-height: 24px;
+        @include transition(0.5s);
+    }
+    .feature_box_pra {
+        font-size: $f-size;
+        color: #666666;
+        font-family: $fontassistant;
+        line-height: 24px;
+        font-weight: $f-weight-r;
+        max-width: 315px;
+        width: 100%;
+        margin-bottom: 55px;
+    }
+    &:hover {
+        .feature_box_head {
+            color: $themecolorthree;
+        }
+    }
+}
+
+/*================================== home page 3 why choose us Features  ================================*/
+
+// global feature-head style
+.featureswrap_heading {
+    max-width: 535px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    .featureswrap_heading_chosse_us {
+        font-family: $font;
+        font-weight: $f-weight-blold;
+        line-height: $l-hight;
+        color: #666666;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .feature_Heading_Home {
+        font-family: $font;
+        margin-bottom: 50px;
+        font-weight: $f-weight-blold;
+        line-height: 48px;
+        color: $theme-colortwo;
+    }
+}
+.feature_wrap.home3-feature {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    .featureswrap_heading {
+        max-width: 535px;
+        width: 100%;
+    }
+}
+.featureswrap_Details_two {
+    position: relative;
+    border: 1px solid #f0f0f0;
+    z-index: 1;
+    border-radius: 3px;
+    background-color: $white-bg;
+    padding: 45px 30px;
+    @include transition(0.5s);
+    cursor: no-drop;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 0%;
+        background: $themecolorthree;
+        right: 0;
+        @include transition(0.8s);
+        height: 100%;
+        overflow: hidden;
+        top: 0;
+        z-index: -1;
+    }
+    &:hover::before {
+        width: 100%;
+        left: 0;
+        right: auto;
+        border-radius: 3px;
+    }
+    .featureswrap_min_head {
+        font-family: $font;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+        color: #1b212f;
+        text-transform: capitalize;
+    }
+    .featureswrap_Pra {
+        font-size: $f-size;
+        font-weight: $f-weight-r;
+        color: $theme-color;
+        line-height: $l-hight;
+        font-family: $font;
+    }
+    .featureswrap_button {
+        font-size: $f-size;
+        font-weight: $f-weight-semi;
+        line-height: 26px;
+        color: $theme-colortwo;
+        text-transform: capitalize;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    &:hover {
+        .featureswrap_min_head, .featureswrap_Pra, .featureswrap_button  {
+            color: $white-color;
+        }
+        
+    }
+}
+/*================================== valuable_features_wrapper ================================*/
+.valuable_features_wrapper.home3 {
+    padding: 45px 0 75px;
+    .featureswrap_heading {
+        max-width: 530px;
+        width: 100%;
+    }
+    .feature_box {
+        border: 1px solid #e1e1e1;
+        padding: 40px 30px;
+        border-radius: 3px;
+        @include transition(1.3s);
+        margin-bottom: 40px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .feature_box_head {
+        }
+        .feature_box_pra {
+            margin-bottom: 0;
+            @include transition(0.5s);
+        }
+        &:hover {
+            background-image: linear-gradient(142deg, #fc4d59 0%, #7967aa 99%);
+            box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.08);
+            border-radius: 3px;
+            cursor: pointer;
+            .feature_box_head {
+                color: $white-color;
+            }
+            .feature_box_pra {
+                color: $white-color;
+            }
+        }
+    }
+}
+

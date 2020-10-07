@@ -1,0 +1,2055 @@
+@media (max-width: 1550px) {
+  .banner_Header .left_slide_content {
+    margin-top: 130px;
+    margin-bottom: 160px;
+  }
+  .get_apps_shape_5 {
+    display: none;
+  }
+  .how_it_works_screenshot .custom_mb_b {
+    margin-bottom: 240px;
+  }
+  .how_it_works_screenshot {
+    padding: 130px 0 100px;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_4 {
+    top: -70px;
+    right: 30px;
+    position: absolute;
+  }
+  .video_logo_carosuel_wrapper {
+    padding: 100px 0;
+  }
+  /* home 2 */
+  .banner_Header.home-two .right_Slider_bar {
+    position: static;
+    bottom: 0;
+}
+}
+
+/*================= end  @media (max-width: 1550px) ==================*/
+
+@media (max-width: 1400px) {}
+
+/*================= end  @media (max-width: 1400px) ==================*/
+
+@media (max-width: 1366px) {
+  .banner_Header .left_slide_content {
+    margin-top: 110px;
+    margin-bottom: 150px;
+  }
+  .banner_Header .shape_3 {
+    right: 125px;
+    top: 125px;
+  }
+  .feature_wrap {
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+  .about_right_app {
+    margin-right: 0;
+  }
+  .about-wrapper {
+    padding: 80px 0 80px;
+}
+  .how_it_works_screenshot .about_right_app {
+    margin-right: 0;
+  }
+  .how_it_works_screenshot .custom_mb_b {
+    margin-bottom: 210px;
+  }
+  .how_it_works_screenshot {
+    padding: 100px 0 90px;
+  }
+  .our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+    margin: 60px auto 50px;
+  }
+  .price_plan_wrap {
+    padding: 100px 0;
+  }
+  .get_our_apps .get_apps_shape_6 {
+    right: 0;
+  }
+  .get_our_apps {
+    padding: 0 0 100px;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .video_imges {
+    margin-left: 0;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .video_imges .video_play .popup-youtube.video_icon {
+    background-color: #f27b3b;
+    left: 35%;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_2 {
+    left: -50px;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_3 {
+    left: 0;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_1 {
+    left: 0;
+    top: 0;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB {
+    margin-bottom: 100px;
+  }
+  .video_logo_carosuel_wrapper {
+    padding: 90px 0;
+  }
+  /* about page */
+
+.get_our_apps.about_page .get_our_apps_right {
+  margin-right: -70px;
+}
+.feature_wrap.about_page {
+  padding: 100px 0 50px;
+}
+.about_our_apps_wrap.about_page {
+  padding: 50px 0 150px;
+}
+.get_our_apps.about_page {
+  padding: 100px 0;
+}
+.feature_wrap.about_page .featureswrap_Details.fewdetailsactive {
+  box-shadow: -4.77px 24.541px 40.4px 7.6px rgba(51, 51, 51, 0.04);
+}
+.feature_wrap .featureswrap_Details:hover {
+  box-shadow: -4.77px 24.541px 40.4px 7.6px rgba(51, 51, 51, 0.04);
+}
+/* 404 pages */
+.Appily_Error_wrap {
+  padding: 100px 0;
+}
+.Appily_Error_wrap .error_content .error_heading {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.Appily_Error_wrap .error_content .error_pra {
+  margin-bottom: 30px;
+}
+/* cooming soon page */
+.Appily_Error_wrap.comming_soon .error_content .error_heading {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.Appily_Error_wrap.comming_soon .error_content .error_headtwo {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+/* blog single */
+
+.blog_wrap {
+  padding: 100px 0;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_img {
+  margin-bottom: 50px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_details .post_description {
+  margin-bottom: 40px;
+}
+.post_info_details {
+  margin-bottom: 40px;
+}
+.comment_reply_wrap .comment_text h3 {
+  margin-bottom: 40px;
+}
+.comment_reply_wrap .comment_media {
+  margin-bottom: 40px;
+}
+.leave_comment .commnet_text h3 {
+  margin-bottom: 40px;
+}
+.post_border {
+  margin-bottom: 45px;
+}
+.blog_sliderbar .search_widdget {
+  margin-bottom: 40px;
+}
+.sidebar_widget {
+  margin-bottom: 40px;
+}
+
+/*contact page*/
+.contact_list {
+  padding: 100px 0 70px;
+}
+.banner_Header .left_slide_content .banner_Pra.all_Pra {
+  margin-right: 0;
+  margin-bottom: 45px;
+}
+.banner_Header.home-two .left_slide_content .banner_Pra.all_Pra {
+  margin-right: 0;
+  margin-bottom: 45px;
+}
+.logo_carosuel_wrapper_home_two {
+  padding: 100px 0 40px;
+}
+.valuable_features_wrapper.hometwo_valu {
+  padding: 45px 0 45px;
+}
+.section_head_title .section_valu_pra .valu_pra {
+  margin: 0 auto 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_wrap {
+  padding: 0px 0 60px;
+}
+.how_it_work_two_wrapper.hometwo_works {
+  padding: 45px 0 70px;
+}
+.screenshot_slide_wrapper {
+  padding: 70px 0 45px;
+}
+.our_client_say_wrapper.home_twoclient {
+  padding: 45px 0 45px;
+}
+.price_plan_wrap.hometwo_price {
+  padding: 45px 0 90px;
+}
+.banner_Header.home-two .left_slide_content {
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+.banner_Header.home-three {
+  padding-top: 200px;
+}
+
+.banner_Header.home-three .business_and_plmsolver_banner .banner_head_title {
+  margin-bottom: 40px;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .business_banner_btn {
+  margin-bottom: 60px;
+}
+.feature_wrap.home3-feature {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.home3-feature .featureswrap_heading .featureswrap_heading_chosse_us {
+  margin-bottom: 6px;
+}
+.home3-feature .feature_wrap .featureswrap_heading {
+  margin: 0 auto 40px;
+}
+.hometwo_valu .feature_box .feature_box_pra {
+  margin-bottom: 40px;
+}
+.about_our_apps_wrap.homethre_about {
+  padding: 50px 0 100px;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_left .about_our_apps_img2 {
+  position: absolute;
+  left: -80px;
+  bottom: -50px;
+  z-index: -1;
+  right: 0;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_right {
+  padding-left: 0px;
+  margin-top: 180px;
+}
+
+.about_our_apps_wrap.homethre_about .about_our_apps_right .about_our_apps_head {
+  margin-bottom: 15px;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_right .about_our_apps_pra {
+  margin-bottom: 15px;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_pra.apps_pragph2.mb_65 {
+  margin-bottom: 40px;
+}
+.home3 .featureswrap_heading .featureswrap_heading_chosse_us {
+  margin-bottom: 6px;
+}
+.home3 .featureswrap_heading .feature_Heading_Home {
+  margin-bottom: 40px;
+}
+.valuable_features_wrapper.home3 {
+  padding: 45px 0 50px;
+}
+.happy_client_area.homethree_client {
+  padding: 50px 0;
+}
+.happy_client_area.homethree_client .single_happy_client .happy_details {
+  margin-bottom: 25px;
+}
+.homethree_client .single_happy_client img {
+margin-bottom: 25px;
+}
+.Appily_how_it_works_wrap.homethree_works{
+  padding: 45px 0;
+}
+.homethree_works .featureswrap_heading .featureswrap_heading_chosse_us {
+  margin-bottom: 6px;
+}
+.homethree_works .featureswrap_heading .feature_Heading_Home {
+  margin-bottom: 40px;
+}
+.Appily_how_it_works_wrap.homethree_works .Appily_how_it_tab_content_wrap .Appily_how_it_tab_content .tab-content .tab-pane .Appily_tab_mockup_slider .Appily_tab_mockup_slide_item .Appily_tab_mockup_content .Appily_tab_mockup_title {
+  margin-bottom: 10px;
+}
+.Appily_how_it_works_wrap.homethree_works .Appily_how_it_tab_content_wrap .Appily_how_it_tab_content .tab-content .tab-pane .Appily_tab_mockup_slider .Appily_tab_mockup_slide_item .Appily_tab_mockup_content .Appily_tab_mockup_para {
+  margin-bottom: 40px;
+}
+.Appily_how_it_works_wrap.homethree_works .Appily_how_it_tab_content_wrap .Appily_how_it_tab_content .tab-content .tab-pane .Appily_tab_mockup_slider .Appily_tab_mockup_slide_item {
+  padding: 0 0 40px;
+}
+.apps_face_screenshot.homethree_scrshot {
+  padding: 40px 0;
+}
+.apps_face_screenshot.homethree_scrshot .featureswrap_heading .featureswrap_heading_chosse_us {
+  margin-bottom: 6px;
+}
+.apps_face_screenshot.homethree_scrshot .featureswrap_heading .feature_Heading_Home {
+  margin-bottom: 40px;
+}
+.price_plan_wrap.home3 {
+  padding: 45px 0 100px;
+}
+
+.price_plan_wrap.home3 .price_plan_tab_wrap nav ul.price_plan_nav_tab {
+    margin-bottom: 40px;
+}
+.newsletter_wrap .newsletter_heading .newsletter_title {
+  margin-bottom: 40px;
+}
+.about_right_app .about_app_title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.media.app_left_icon.mb_65 {
+  margin-bottom: 45px;
+}
+.app_screenshot_heading .section_head {
+  margin-bottom: 15px;
+}
+.app_screenshot_heading .app_screenshot_pra {
+  margin-bottom: 40px;
+}
+.about_our_apps_wrap.about_page .about_our_apps_left .about_our_apps_img2 {
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.about_our_apps_wrap.about_page .about_our_apps_right {
+  padding-left: 80px;
+}
+.about_our_apps_wrap.about_page {
+  padding: 50px 0 100px;
+}
+
+
+}
+
+
+/*================= end  @media (max-width: 1366px) ==================*/
+
+@media (max-width: 1250px) {
+  .our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+    box-shadow: 0px 10px 24px 3px rgba(3, 11, 61, 0.05);
+  }
+  .about_our_apps_wrap .about_our_apps_left .about_our_apps_img2 {
+    left: 0;
+}
+
+}
+
+/*================= end  @media (max-width: 1250px) ==================*/
+
+@media(min-width:1024px) {
+  .right_slider-img {
+    display: block;
+  }
+  .right_slider-img.mdd_none {
+    display: none !important;
+  }
+  .get_our_apps.about_page .get_our_apps_right {
+    margin-right: 0;
+}
+
+}
+
+@media (max-width: 1024px) {
+  .right_slider-img.mdd_none {
+    display: block !important;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+    width: 100%;
+    transform: rotate(25deg);
+  }
+  .right_slider-img {
+    display: none;
+  }
+  .banner_Header .left_slide_content .banner_head_title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .banner_Header .right_Slider_bar {
+    position: static;
+  }
+  .banner_Header .left_slide_content .banner_Pra.all_Pra {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .feature_wrap .featureswrap_Details {
+    padding: 30px 20px;
+}
+.about-wrapper {
+  padding: 80px 0 65px;
+}
+.how_it_works_screenshot {
+  padding: 85px 0 90px;
+}
+.how_it_works_screenshot .it_work_app_right .it_work_app_right_img2 {
+  right: 0;
+  top: -50px;
+}
+.how_it_works_screenshot .it_work_app_right .it_work_app_right_img1 {
+  left: 0;
+}
+.how_it_works_screenshot .custom_mb_b {
+  margin-bottom: 160px;
+}
+.price_plan_wrap .tab-content.price_plan_content_tab .single_price_plan {
+  padding: 40px 15px;
+}
+.get_our_apps .get_our_apps_right {
+  margin-right: 0;
+}
+.get_our_apps .get_apps_shape_4 {
+  top: 110px;
+  right: 0;
+}
+.get_our_apps .get_apps_shape_2 {
+  left: 0;
+  top: 175px;
+}
+.get_our_apps .get_apps_shape_3 {
+  bottom: 98px;
+  left: 80px;
+}
+.video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_3 {
+  left: 50px;
+  bottom: 0;
+}
+.video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_2 {
+  left: 20px;
+}
+/* about page */
+.banner_Header.home-two.about_page {
+  padding: 180px 0 100px;
+}
+.banner_Header.about_page .header_banner_content .banner_title {
+  margin-bottom: 0;
+}
+.feature_wrap.about_page {
+  padding: 100px 0 50px;
+}
+.about_our_apps_wrap.about_page {
+  padding: 50px 0 150px;
+}
+.about_our_apps_wrap.about_page .about_our_apps_left .about_our_apps_img2 {
+  left: 0;
+  right: 0;
+}
+.about_our_apps_wrap.about_page .about_our_apps_right {
+  padding-left: 0;
+  margin-top: 115px;
+}
+
+.about_page .about_our_apps_pra.apps_pragph2.mb_65 {
+margin-bottom: 40px;
+}
+.about_page.about_our_apps_pra.mb_25 {
+margin-bottom: 15px;
+}
+/* comming soon */
+.Appily_Error_wrap.comming_soon .error_content .error_heading {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.Appily_Error_wrap.comming_soon .error_content .error_headtwo {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+/* blog single */
+.blog_wrap .blog_content .blog_single_item .blog_post .post_img {
+  margin-bottom: 40px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_title {
+  font-size: 28px;
+  line-height: 38px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_details .post_description {
+  margin-bottom: 20px;
+}
+.post_border {
+  margin-bottom: 30px;
+}
+.comment_reply_wrap .comment_text h3 {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.leave_comment .commnet_text h3 {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.comment_reply_wrap .comment_media {
+  margin-bottom: 30px;
+}
+.sidebar_widget {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+}
+.blog_sliderbar .widget_popular_post .media .media-left {
+  margin-right: 15px;
+}
+.blog_sliderbar .widget_popular_post .media .media-body .tn_tittle a {
+  font-size: 16px;
+  line-height: 22px;
+}
+.blog_sliderbar .widget_popular_post .media .media-body .recent_post_meta li a {
+  font-size: 14px;
+  line-height: 26px;
+}
+.sidebar_widget .media {
+  margin-bottom: 15px;
+}
+.blog_sliderbar .widget_category .widget_head_title {
+  margin-bottom: 15px;
+}
+.blog_sliderbar .widget_category ul li a {
+  font-size: 15px;
+  line-height: 30px;
+}
+.widget_head_title {
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.blog_sliderbar .widget_tags ul li a {
+  font-size: 13px;
+  line-height: 30px;
+  padding: 6px 18px;
+}
+/* blog details */
+.blog_wrap.blog_post_details.blg_page .post_details {
+  margin-bottom: 30px;
+}
+.blog_wrap.blog_post_details.blg_page .blog_content .blog_single_item {
+  margin-bottom: 60px;
+}
+.blog_wrap.blog_post_details.blg_page .blog_content .blog_single_item .Blog_post_border {
+  margin-top: 35px;
+}
+.blog_wrap.blog_post_details.blg_page .blog_content .blog_single_item {
+  margin-bottom: 35px;
+}
+/* contact page */
+.contact_list .single_contact_item {
+  padding: 30px 15px 30px 15px;
+}
+.contact_list .single_contact_item .phone_icon a {
+  font-size: 30px;
+}
+.contact_list .single_contact_item .phone_itemone {
+  font-size: 15px;
+  line-height: 24px;
+}
+.contact_list .single_contact_item .phone_itemtwo {
+  font-size: 15px;
+}
+.contact_list .single_contact_item .contact_social_item ul li {
+  margin-right: 4px;
+}
+.contact_list .single_contact_item .contact_social_item {
+  margin-bottom: 11px;
+}
+.contact_messae_wrap .google_map_show .google_map iframe {
+  left: 88px;
+  height: 560px;
+}
+.home-two .right_slider-img {
+  display: block;
+}
+.banner_Header.home-two .left_slide_content {
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+.hometwo_valu .feature_box .feature_box_pra {
+  margin-bottom: 40px;
+}
+.slider_thumb::before {
+  left: 0;
+  top: 0;
+  width: 450px;
+  height: 450px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .phn_gadgets {
+  left: 140px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_wrap {
+  padding: 0px 0 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_right {
+  margin-left: 30px;
+  margin-top: 70px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_right .signin_tab_pra {
+  margin-bottom: 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap {
+  margin-bottom: 100px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_left .section_head_title .section_valu_pra .valu_pra {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right {
+  margin-left: 30px;
+  position: relative;
+}
+.hometwo_works .app_stitctics_left {
+  margin-top: 80px;
+}
+.how_it_work_two_wrapper.hometwo_works {
+  padding: 45px 0 50px;
+}
+.screenshot_slide_wrapper {
+  padding: 50px 0 45px;
+}
+.app_Screenshot_slider .app_single_item {
+  text-align: center;
+  padding: 0px 10px 40px;
+  outline: none;
+}
+.app_Screenshot_slider .app_single_item.slick-slide.slick-current.slick-active img {
+  box-shadow: 0 20px 25px 0px rgba(2, 20, 30, 0.06);
+}
+.app_Screenshot_slider .app_single_item img {
+  box-shadow: 0 10px 15px 0px rgba(2, 7, 40, 0.04);
+  display: inline-block;
+}
+.our_client_say_wrapper.home_twoclient .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+  margin: 60px auto 50px;
+  padding: 0px 50px 40px;
+}
+.price_plan_wrap .tab-content.price_plan_content_tab .single_price_plan.Second_price_plan {
+  padding: 40px 15px;
+}
+.dash-head {
+  margin: 0 auto 15px;
+}
+.section_head_title .head_title_mini {
+  margin-bottom: 6px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_right .signin_tab_head {
+  margin-bottom: 12px;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .banner_head_title {
+  margin-bottom: 30px;
+  font-size: 35px;
+  line-height: 40px;
+}
+.banner_Header.home-three .right_slider-img {
+  display: block;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .business_banner_btn {
+  margin-bottom: 45px;
+}
+.feature_wrap.home3-feature .featureswrap_heading .feature_Heading_Home {
+  font-size: 30px;
+  line-height: 40px;
+}
+.feature_wrap.home3-feature .featureswrap_heading {
+  margin: 0px auto 40px;
+}
+.home3-feature .featureswrap_heading .feature_Heading_Home {
+  margin-bottom: 0;
+}
+.home3-feature .featureswrap_Details_two {
+  padding: 30px 20px;
+}
+.feature_wrap .featureswrap_Details .featureswrap_min_head {
+  margin-bottom: 10px;
+}
+
+.home3-feature .featureswrap_Details_two .featureswrap_min_head {
+  margin-bottom: 10px;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_left .about_our_apps_img2 {
+  left: 0;
+  bottom: 0;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_right {
+  padding-left: 0px;
+  margin-top: 60px;
+}
+.about_our_apps_wrap.homethre_about {
+  padding: 50px 0 50px;
+}
+.home3 .featureswrap_heading .feature_Heading_Home {
+  line-height: 35px;
+  font-size: 28px;
+}
+.valuable_features_wrapper.home3 .feature_box {
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+.home3 .feature_box .feature_box_head {
+  margin-bottom: 10px;
+}
+.homethree_client .single_happy_client img {
+  margin-bottom: 20px;
+}
+.happy_client_area.homethree_client .single_happy_client .happy_details {
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.happy_client_area.homethree_client .single_happy_client .happy_count {
+  font-size: 38px;
+}
+.homethree_client .single_happy_client.text-right {
+  text-align: center !important;
+}
+.homethree_client .single_happy_client {
+  text-align: center;
+}
+.Appily_how_it_works_wrap.homethree_works .Appily_how_it_tab_content_wrap .Appily_how_it_tab_content .tab-content .tab-pane .Appily_tab_mockup_slider .Appily_tab_mockup_slide_item .Appily_tab_mockup_content .Appily_tab_mockup_para {
+  margin-bottom: 35px;
+}
+.homethree_works .Appily_tab_mockup_content a.primary_Btn {
+  box-shadow: none;
+}
+.price_plan_wrap .price_plan_tab_wrap nav ul.price_plan_nav_tab {
+  margin-bottom: 45px;
+}
+.home3 .featureswrap_heading .feature_Heading_Home {
+  margin-bottom: 30px;
+}
+.price_plan_wrap.home3 {
+  padding: 45px 0 70px;
+}
+.featureswrap_heading .feature_Heading_Home {
+  font-size: 30px;
+  line-height: 40px;
+}
+.featureswrap_heading .feature_Heading_Home {
+  font-size: 28px;
+  line-height: 35px;
+}
+.about_our_apps_wrap.about_page .about_our_apps_right {
+  margin-top: 50px;
+}
+}
+
+/*================= end  @media (max-width: 1024px) ==================*/
+
+@media (min-width: 992px) {
+  .Appily_header .header_nav .Appily_header_menu ul li.nav-item li.nav-item {
+    padding-bottom: 40px;
+    margin-bottom: -40px;
+  }
+  .Appily_header .header_nav .Appily_header_menu ul li.nav-item .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    margin: 65px 0 0;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    min-width: -webkit-max-content;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    -webkit-transform: translate(-30px, 10px);
+    -ms-transform: translate(-30px, 10px);
+    transform: translate(-30px, 10px);
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(18, 1, 64, 0.08);
+    box-shadow: 0px 10px 30px 0px rgba(18, 1, 64, 0.08);
+  }
+  .Appily_header .header_nav .Appily_header_menu ul li.nav-item:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate(-30px, 0px);
+    -ms-transform: translate(-30px, 0px);
+    transform: translate(-30px, 0px);
+  }
+}
+
+/*================= end  @media (min-width: 992) ==================*/
+
+@media (max-width: 991px) {
+  .Appily_header_menu {
+    background: #fff;
+    padding: 0px 30px 0px 30px;
+  }
+  .Appily_header .header_nav .Appily_header_menu ul {
+    padding: 20px 0 15px;
+  }
+  .Appily_header .header_nav .Appily_header_menu ul.navbar-nav {
+    margin-bottom: 15px;
+    display: block;
+  }
+  .Appily_header .header_nav .Appily_header_menu ul li.nav-item {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .Appily_header .header_nav .Appily_header_menu ul li.nav-item .dropdown-menu {
+    padding: 18px 40px 20px 0;
+    margin: 0 0 22px;
+    border-bottom: 1px solid #e1e5ec;
+    border-radius: 0;
+    transition: unset;
+  }
+  .Appily_header .header_nav .Appily_header_menu ul li.nav-item a.nav-link {
+    color: #1b212f;
+  }
+  .Appily_header .header_nav .Appily_header_menu ul li.nav-item .dropdown-menu li a {
+    padding-left: 40px;
+  }
+  .Appily_header .header_nav .Appily_header_menu .GetNbtn {
+    margin-left: 0;
+  }
+  .Appily_header.Appily_header_transparent.fixedMenu .header_nav .GetNbtn {
+    margin-left: 0;
+  }
+  .Appily_header .header_nav .GetNbtn a.primary_Btn:hover {
+    color: #6934ff;
+    border: 1px solid #6934ff;
+}
+.Appily_header.home-two-nav .header_nav .GetNbtn a.primary_Btn:hover {
+  color: #f0545f;
+  border: 1px solid #f0545f;
+}
+.Appily_header.home-three-nav .header_nav .GetNbtn a.primary_Btn:hover {
+  color: #f0545f;
+  border: 1px solid #f0545f;
+}
+.Appily_header.home-three-nav.Appily_header_transparent.fixedMenu .header_nav .GetNbtn {
+  margin-left: 0;
+}
+  .Appily_header.home-two-nav.Appily_header_transparent.fixedMenu .header_nav .GetNbtn {
+    margin-left: 0;
+  }
+  .Appily_header .header_nav .Appily_header_menu .GetNbtn .get_btn {
+    position: static;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .Appily_header {
+    padding: 15px 0;
+  }
+  .Appily_header.Appily_header_transparent.fixedMenu {
+    padding: 10px 0;
+  }
+  /* hero area */
+  .banner_Header .left_slide_content {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+  .primary_Btn.app_btn_primary {
+    margin-bottom: 25px;
+  }
+  .banner_Header .left_slide_content .secondary_Btn.slide_btn {
+    margin-left: 0;
+  }
+
+  .banner_Header .left_slide_content {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.feature_wrap {
+  padding-top: 70px;
+  padding-bottom: 45px;
+}
+.feature_wrap .featureswrap_heading .feature_Heading_Home {
+  font-size: 26px;
+  line-height: 36px;
+}
+.feature_wrap .featureswrap_Details {
+  margin-bottom: 30px;
+}
+.about-wrapper .about_left_image {
+  margin-top: 90px;
+}
+.about_right_app.mt_65 {
+  margin-top: 35px;
+}
+.about_right_app .media.app_left_icon .media-body.media_details {
+  margin-left: 20px;
+}
+.about_right_app .primary_Btn{
+box-shadow: none;
+}
+.about_right_app .about_app_title {
+  font-size: 28px;
+  line-height: 35px;
+}
+.how_it_works_screenshot .it_work_app_right .it_work_app_right_img2 {
+  top: -45px;
+  right: -30px;
+}
+.how_it_works_screenshot .about_right_app {
+  margin-top: 0;
+}
+.about-wrapper {
+  padding: 50px 0 40px;
+}
+.about_right_app .mb_65{
+margin-bottom: 45px;
+}
+.how_it_works_screenshot .custom_mb_b {
+  margin-bottom: 120px;
+}
+.how_it_works_screenshot {
+  padding: 80px 0 70px;
+}
+.our_client_say_wrapper {
+  padding: 70px 0;
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+  margin: 60px auto 30px;
+}
+.price_plan_wrap {
+  padding: 80px 0 50px;
+}
+.price_plan_wrap .tab-content.price_plan_content_tab .single_price_plan {
+  margin-bottom: 30px;
+}
+a.video_icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.video_logo_carosuel_wrapper .about_right_app.video_right {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.about_app_title.mb_25 {
+  margin-bottom: 15px;
+}
+.get_our_apps {
+  padding: 0 0 50px;
+}
+
+.video_logo_carosuel_wrapper {
+  padding: 50px 0 60px;
+}
+.video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_2 {
+  left: 0;
+  top: 140px;
+}
+.video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_4 {
+  top: 90px;
+  right: 0;
+}
+.video_logo_carosuel_wrapper .custom_mtB {
+  margin-bottom: 60px;
+}
+.Appily_footer_wrap {
+  padding: 80px 0;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget .Appily_footer_title {
+  margin-bottom: 25px;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget a img {
+  margin-bottom: 28px;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget .Appily_footer_menu li {
+  margin-bottom: 4px;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget .email_box {
+display: none;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget .footer_para_join {
+  margin-bottom: 20px;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget .Appily_footer_social .social_item li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.Appily_footer_wrap .Appily_footer_top {
+  margin-bottom: 50px;
+}
+.Appily_footer_wrap .Appily_footer_bottom .container.custom_containertwo {
+  padding-top: 50px;
+}
+/* about page */
+.feature_wrap.about_page {
+  padding: 80px 0 25px;
+}
+.about_our_apps_wrap.about_page {
+  padding: 40px 0 80px;
+}
+.about_our_apps_wrap.about_page .about_our_apps_right {
+  margin-top: 0;
+}
+.about_our_apps_wrap.about_page .about_our_apps_right .about_our_apps_head {
+  font-size: 28px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.about_our_apps_wrap .about_our_apps_right .about_our_apps_pra {
+margin-bottom: 15px;
+}
+.primary_Btn {
+  padding: 9px 18px;
+  min-width: 145px;
+}
+.banner_Header .left_slide_content .secondary_Btn.slide_btn {
+  padding: 9px 30px;
+}
+.banner_Header.home-two .left_slide_content .secondary_Btn.slide_btn {
+  padding: 9px 30px;
+}
+.get_our_apps.about_page {
+  padding: 80px 0;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .business_banner_btn .primary_Btn {
+  padding: 9px 24px;
+  margin-right: 10px;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .business_banner_btn .secondary_Btn {
+  padding: 9px 28px;
+}
+
+.price_plan_wrap .price_plan_tab_wrap nav ul.price_plan_nav_tab .nav-item .nav-link {
+  margin: 0 5px;
+  padding: 9px 38px;
+}
+
+
+.Appily_footer_wrap.home_footer_two {
+  padding: 80px 0;
+}
+.Appily_footer_wrap.home_footer_two .Appily_footer_top .Appily_footer_widget .Appily_footer_menu li:last-child {
+  margin-bottom: 0;
+}
+.Appily_footer_wrap.home_footer_two .footer_border {
+  margin: 0 auto 50px;
+}
+.get_our_apps.about_page .get_apps_shape_3 {
+  bottom: 125px;
+  left: 80px;
+}
+
+.get_our_apps.about_page .get_apps_shape_6 {
+  bottom: 155px;
+  right: -15px;
+}
+/* 404 page */
+.Appily_Error_wrap {
+  padding: 80px 0;
+}
+.Appily_Error_wrap .error_content .error_heading {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+/* comming soon */
+
+.Appily_Error_wrap.comming_soon .error_content .error_heading {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.Appily_Error_wrap.comming_soon .error_content .error_headtwo {
+  font-size: 35px;
+}
+/* blog single */
+.blog_wrap {
+  padding: 80px 0;
+}
+.leave_comment .comment_wrap {
+  margin-bottom: 30px;
+}
+/* blog details */
+
+.blog_wrap.blog_post_details.blg_page .pagination_content.wow.fadeInUp {
+  margin-bottom: 30px;
+}
+.contact_list {
+  padding: 80px 0 50px;
+}
+.contact_messae_wrap .google_map_show .google_map iframe {
+  top: 80px;
+}
+.contact_messae_wrap {
+  padding: 100px 0 100px;
+}
+.price_plan_wrap.hometwo_price {
+  padding: 35px 0 40px;
+}
+.our_client_say_wrapper.home_twoclient .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+  margin: 60px auto 30px;
+  padding: 0px 50px 40px;
+  box-shadow: 0 10px 40px 3px rgb(3 11 61 / 0.05);
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+  padding: 0px 50px 40px;
+}
+
+.section_head_title .section_valu_pra .valu_pra {
+  margin: 0 auto 30px;
+}
+.logo_carosuel_wrapper_home_two {
+  padding: 80px 0 30px;
+}
+.fea_dnone {
+  display: none;
+}
+.valuable_features_wrapper.hometwo_valu {
+  padding: 35px 0 20px;
+}
+.how_it_work_two_wrapper.hometwo_works {
+  padding: 30px 0 35px;
+}
+.slider_thumb {
+  display: none;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .phn_gadgets {
+  left: 0;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .profile_icon {
+  display: none;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .express_icon {
+  left: -50px;
+  top: 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .facebook_icon {
+  right: 40px;
+  top: -30px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .amazon_icon {
+  left: -50px;
+  bottom: 50px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_right {
+  margin-left: 0;
+  margin-top: 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap {
+  margin-bottom: 80px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .dailyuser_count {
+  right: -50px;
+  top: 85px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .following_count {
+  right: -52px;
+  bottom: 70px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .download_count {
+  position: absolute;
+  left: 0;
+  top: 85px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .feedback_count {
+  position: absolute;
+  left: 30px;
+  bottom: 45px;
+}
+.screenshot_slide_wrapper {
+  padding: 35px 0 40px;
+}
+.our_client_say_wrapper.home_twoclient {
+  padding: 35px 0 35px;
+}
+.newsletter_wrap {
+  padding: 80px 0 80px;
+}
+.newsletter_wrap .newsletter_heading .newsletter_title {
+  margin-bottom: 35px;
+  font-size: 28px;
+  line-height: 35px;
+}
+.section_head_title .head_title_mini {
+  margin-bottom: 6px;
+  font-size: 28px;
+}
+.dash-head {
+  margin: 0px auto 10px;
+}
+.banner_Header .left_slide_content .banner_head_title br {
+  display: none;
+}
+.banner_Header.home-two .left_slide_content {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+.banner_Header .left_slide_content .banner_Pra.all_Pra {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.banner_Header.home-two .left_slide_content .banner_Pra.all_Pra {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.feature_wrap.home3-feature {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.feature_wrap.home3-feature .featureswrap_heading .feature_Heading_Home {
+  font-size: 28px;
+  line-height: 35px;
+}
+.featureswrap_Details_two.mbfeawrap {
+  margin-bottom: 30px;
+}
+.about_our_apps_wrap.homethre_about {
+  padding: 40px 0 40px;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_right {
+  padding-left: 0px;
+  margin-top: 0;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_right .about_our_apps_head {
+  margin-bottom: 10px;
+}
+.about_our_apps_wrap.homethre_about .about_our_apps_pra.apps_pragph2.mb_65 {
+  margin-bottom: 30px;
+}
+.home3 .feature_box .feature_box_head {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.valuable_features_wrapper.home3 {
+  padding: 40px 0 40px;
+}
+.happy_client_area.homethree_client {
+  padding: 40px 0;
+}
+.happy_client_area.homethree_client .single_happy_client .happy_details {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.happy_client_area.homethree_client .single_happy_client .happy_count {
+  font-size: 30px;
+  line-height: 26px;
+}
+.Appily_how_it_works_wrap.homethree_works {
+  padding: 30px 0;
+}
+.homethree_works .Appily_tab_mockup_conten img {
+margin-bottom: 20px;
+}
+.apps_face_screenshot.homethree_scrshot {
+  padding: 30px 0;
+}
+.price_plan_wrap.home3 {
+  padding: 32px 0 50px;
+}
+.Appily_footer_wrap.home_footer_two.home3 {
+  padding: 80px 0;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .banner_head_title {
+  margin-bottom: 20px;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .business_banner_btn {
+  margin-bottom: 35px;
+}
+
+
+
+}
+
+/*================= end  @media (max-width: 991px) ==================*/
+
+@media (max-width: 768px) {
+  .contact_messae_wrap .google_map_show .google_map iframe {
+    left: 75px;
+    height: 560px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .overview_icon {
+  right: 0;
+
+}
+
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .express_icon {
+  left: -40px;
+  top: 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .amazon_icon {
+  left: -30px;
+  bottom: 50px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .dailyuser_count {
+  right: -30px;
+  top: 85px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .following_count {
+  right: -30px;
+  bottom: 70px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right {
+  margin-left: 0;
+  position: relative;
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner .our_client_say_slider_pra {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+}
+/*================= end  @media (max-width: 768px) ==================*/
+
+
+@media (max-width: 767px) {
+  .banner_Header .left_slide_content .secondary_Btn.slide_btn {
+    margin-left: 10px;
+}
+.banner_Header .left_slide_content {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.feature_wrap .featureswrap_heading .feature_Heading_Home {
+  font-size: 23px;
+  line-height: 30px;
+}
+.feature_wrap .featureswrap_heading {
+  margin: 0 auto 45px;
+}
+.about-wrapper .about_left_image {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.how_it_works_screenshot .custom_mb_b {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.how_it_works_screenshot .it_work_app_right {
+  position: relative;
+  z-index: 2;
+  height: 865px;
+}
+.how_it_works_screenshot .it_work_app_right .it_work_app_right_img1 {
+  top: 40px;
+}
+.how_it_works_screenshot .shape_bg {
+  top: 0;
+}
+.how_it_works_screenshot .it_work_app_right .it_work_app_right_img2 {
+  top: -25px;
+  left: 100px;
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+  margin: 60px auto 30px;
+  padding: 0px 20px 30px;
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner .client_img {
+  margin-bottom: 15px;
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner .our_client_say_slider_pra {
+  font-size: 21px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.get_our_apps .get_our_apps_right {
+  margin-bottom: 30px;
+}
+.video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_2 {
+  left: 0;
+  top: 230px;
+}
+.video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .video_imges {
+  margin-bottom: 30px;
+}
+.video_logo_carosuel_wrapper .custom_mtB {
+  margin-bottom: 40px;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget .Appily_footer_title {
+  margin-bottom: 10px;
+}
+.Appily_footer_widget {
+  margin-bottom: 30px;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget .email_box {
+  display: block;
+}
+
+.col_reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.Appily_footer_wrap .Appily_footer_top {
+  margin-bottom: 30px;
+}
+.Appily_footer_wrap.home_footer_two .Appily_footer_top .Appily_footer_widget .footer_para {
+  max-width: 100%;
+  width: 100%;
+}
+.about_our_apps_wrap.about_page .about_our_apps_left {
+  margin-bottom: 40px;
+}
+.about_our_apps_wrap.about_page .about_our_apps_left .about_our_apps_img2 {
+  bottom: 0;
+}
+.get_our_apps.about_page .about_right_app {
+  margin-bottom: 40px;
+}
+.banner_Header.home-two.about_page {
+  padding: 140px 0 80px;
+}
+.banner_Header.about_page .header_banner_content .banner_title {
+  margin-bottom: 0;
+  font-size: 35px;
+  line-height: 40px;
+}
+.about_page .header_banner_content .call_para {
+  font-weight: 400;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_title {
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 0;
+}
+.post_info_details .posted_info .Appily_posted_details h4 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.comment_reply_wrap .comment_text h3 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+.comment_reply_wrap .comment_media .media-body .comment_name .commenter_name {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.comment_reply_wrap .comment_media .media-left img {
+  margin-right: 20px;
+}
+.leave_comment .commnet_text h3 {
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+.leave_comment .comment_wrap {
+  padding: 40px 30px;
+}
+/* contact page */
+.contact_messae_wrap .google_map_show .google_map iframe {
+  position: static;
+  left: 120px;
+  top: 0;
+  width: 100%;
+  height: 300px;
+  left: 0;
+}
+.contact_messae_wrap {
+  padding: 100px 0 100px;
+}
+.contact_messae_wrap {
+  padding: 80px 0 80px;
+}
+.app_screenshot_heading .section_head {
+  margin-bottom: 12px;
+  font-size: 25px;
+}
+.how_it_works_screenshot .custom_mb_b {
+  margin-bottom: 77px;
+}
+.price_plan_wrap .price_plan_tab_wrap nav ul.price_plan_nav_tab {
+  margin-bottom: 50px;
+}
+.banner_Header.home-two .left_slide_content {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.hometwo_valu .feature_box .feature_box_pra {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 100%;
+}
+.price_plan_wrap .price_plan_tab_wrap nav ul.price_plan_nav_tab .nav-item .nav-link {
+  font-size: 14px;
+  margin: 0 4px;
+  padding: 8px 28px;
+}
+
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .phn_gadgets {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .express_icon {
+  left: 0;
+  top: 40px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .facebook_icon {
+  right: 0;
+  top: -30px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .amazon_icon {
+  left: 0;
+  bottom: 50px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_left .twitter_icon {
+  bottom: 65px;
+  right: 0;
+}
+.hometwo_works .app_stitctics_left {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.hometwo_works .section_head_title .section_valu_pra .valu_pra {
+  max-width: 100%;
+  width: 100%;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .dailyuser_count {
+  right: 0;
+  top: 85px;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .feedback_count {
+  left: 0;
+}
+.how_it_work_two_wrapper.hometwo_works .app_stitctics_wrap .app_stitctics_right .following_count {
+  right: 0;
+  bottom: 70px;
+}
+.our_client_say_wrapper.home_twoclient .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner {
+  margin: 60px auto 30px;
+  padding: 0px 20px 40px;
+}
+.newsletter_wrap .newsletter_heading .newsletter_title {
+  margin-bottom: 20px;
+  font-size: 23px;
+  line-height: 30px;
+}
+.homethre_about .about_our_apps_wrap .about_our_apps_left {
+  margin-bottom: 40px;
+}
+.about_our_apps_wrap .about_our_apps_right .about_our_apps_head {
+  font-size: 28px;
+}
+.homethree_client .single_happy_client.mbhapclient {
+  margin-bottom: 40px;
+}
+
+.homethree_works .featureswrap_heading .feature_Heading_Home {
+  margin-bottom: 30px;
+}
+.homethre_about .about_our_apps_left img {
+  margin-bottom: 40px;
+}
+.homethree_works .Appily_tab_mockup_img img {
+margin-bottom: 40px;
+}
+.Appily_how_it_works_wrap.homethree_works .Appily_how_it_tab_wrap nav .Appily_how_it_tab a {
+  margin: 0 4px;
+  padding: 8px 28px;
+  min-width: 130px;
+}
+.home3 .featureswrap_heading .feature_Heading_Home {
+  line-height: 30px;
+  font-size: 25px;
+}
+.about_our_apps_wrap .about_our_apps_right .about_our_apps_head {
+  font-size: 25px;
+}
+.feature_wrap.home3-feature .featureswrap_heading .feature_Heading_Home {
+  font-size: 25px;
+  line-height: 30px;
+}
+.featureswrap_heading .feature_Heading_Home {
+  font-size: 25px;
+  line-height: 30px;
+}
+.about_right_app .about_app_title {
+  font-size: 25px;
+  line-height: 30px;
+}
+.app_screenshot_heading .app_screenshot_pra {
+  margin-bottom: 30px;
+}
+
+.banner_Header.home-three {
+  padding-top: 150px;
+}
+
+.home-three .primary_Btn.app_btn_primary {
+  margin-bottom: 0;
+}
+.valuable_features_wrapper.home3 .feature_box:nth-child(3) {
+  margin-bottom: 30px !important;
+}
+.valuable_features_wrapper.home3 .feature_box.cusmbmob {
+  margin-bottom: 0 !important;
+}
+.valuable_features_wrapper.home3 .feature_box .feature_box_pra {
+  max-width: 100%;
+  width: 100%;
+}
+
+}
+
+
+
+/*================= end  @media (max-width: 767px) ==================*/
+
+@media (max-width: 680px) {
+  .feature_wrap {
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+.how_it_works_screenshot .custom_mb_b {
+  margin-bottom: 60px;
+}
+.app_Screenshot_slider .app_single_item.slick-slide.slick-current.slick-active img {
+  box-shadow: 0 15px 20px 0px rgba(2, 20, 40, 0.04);
+}
+.app_Screenshot_slider .app_single_item {
+  padding: 0px 10px 35px;
+}
+.how_it_works_screenshot {
+  padding: 70px 0 50px;
+}
+.our_client_say_wrapper {
+  padding: 60px 0 50px;
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner .our_client_say_slider_pra {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.our_client_say_wrapper .our_client_say_slider .our_client_say_slider_item .our_client_say_slider_inner .our_client_say_slider_pra {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.price_plan_wrap {
+  padding: 60px 0 30px;
+}
+.price_plan_wrap .price_plan_tab_wrap nav ul.price_plan_nav_tab {
+  margin-bottom: 35px;
+}
+.video_logo_carosuel_wrapper {
+  padding: 50px 0 45px;
+}
+.Appily_footer_wrap {
+  padding: 60px 0;
+}
+.Appily_footer_wrap .Appily_footer_bottom .container.custom_containertwo {
+  padding-top: 35px;
+}
+.Appily_footer_wrap .Appily_footer_top {
+  margin-bottom: 0;
+}
+.feature_wrap.about_page {
+  padding: 60px 0 20px;
+}
+.about_our_apps_wrap.about_page {
+  padding: 30px 0 60px;
+}
+.get_our_apps.about_page {
+  padding: 60px 0 35px;
+}
+.Appily_footer_wrap.home_footer_two {
+  padding: 60px 0;
+}
+.Appily_footer_wrap.home_footer_two .footer_border {
+  margin: 0px auto 35px;
+}
+/* 404 page */
+.Appily_Error_wrap {
+  padding: 60px 0;
+}
+.Appily_Error_wrap .error_content .error_heading {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+/* comming soon  */
+.Appily_Error_wrap.comming_soon .error_content .error_heading {
+  font-size: 28px;
+}
+.Appily_Error_wrap.comming_soon .error_content .error_headtwo {
+  font-size: 28px;
+}
+/* blog single */
+.blog_wrap .blog_content .blog_single_item .blog_post .post_title {
+  font-size: 22px;
+  line-height: 28px;
+}
+.widget_head_title {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.blog_wrap {
+  padding: 60px 0;
+}
+.contact_list {
+  padding: 60px 0 30px;
+}
+.contact_messae_wrap {
+  padding: 60px 0 60px;
+}
+
+.logo_carosuel_wrapper_home_two {
+  padding: 60px 0 25px;
+}
+.valuable_features_wrapper.hometwo_valu {
+  padding: 25px 0 15px;
+}
+.how_it_work_two_wrapper.hometwo_works {
+  padding: 20px 0 25px;
+}
+.screenshot_slide_wrapper {
+  padding: 25px 0 20px;
+}
+.our_client_say_wrapper.home_twoclient {
+  padding: 25px 0 25px;
+}
+.price_plan_wrap.hometwo_price {
+  padding: 25px 0 20px;
+}
+.newsletter_wrap {
+  padding: 60px 0 60px;
+}
+.home3 .feature_box .feature_box_pra {
+  max-width: 100%;
+  width: 100%;
+}
+.about_our_apps_wrap.homethre_about {
+  padding: 30px 0 30px;
+}
+.feature_wrap.home3-feature {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.valuable_features_wrapper.home3 {
+  padding: 30px 0 30px;
+}
+.happy_client_area.homethree_client {
+  padding: 30px 0;
+}
+.Appily_how_it_works_wrap .Appily_how_it_tab_wrap nav .Appily_how_it_tab {
+  margin-bottom: 45px;
+}
+.Appily_how_it_works_wrap.homethree_works .Appily_how_it_tab_content_wrap .Appily_how_it_tab_content .tab-content .tab-pane .Appily_tab_mockup_slider .Appily_tab_mockup_slide_item {
+  padding: 0 0 30px;
+}
+.apps_face_screenshot.homethree_scrshot {
+  padding: 25px 0;
+}
+.Appily_how_it_works_wrap.homethree_works {
+  padding: 25px 0;
+}
+.price_plan_wrap.home3 {
+  padding: 25px 0 30px;
+}
+.Appily_footer_wrap.home_footer_two.home3 {
+  padding: 60px 0;
+}
+
+}
+/*================= end  @media (max-width: 680px) ==================*/
+
+@media (max-width: 576px) {
+  .how_it_works_screenshot .it_work_app_right {
+    height: 830px;
+}
+.how_it_works_screenshot {
+  padding: 50px 0 50px;
+}
+.how_it_works_screenshot .it_work_app_right .it_work_app_right_img2 {
+  display: none;
+}
+.about_right_app.mt_65 {
+  margin-top: 0;
+}
+.how_it_works_screenshot .it_work_app_right .it_work_app_right_img1 {
+  top: 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.banner_Header.home-two.about_page {
+  padding: 100px 0 60px;
+}
+.banner_Header.about_page .header_banner_content .banner_title {
+  font-size: 28px;
+  line-height: 40spx;
+}
+.newsletter_wrap .newsletter_heading .newsletter_title {
+  margin-bottom: 25spx;
+  font-size: 22px;
+  line-height: 28px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap {
+  margin-bottom: 40px;
+}
+.section_head_title .head_title_mini {
+  margin-bottom: 0;
+  font-size: 22px;
+}
+.how_it_work_two_wrapper.hometwo_works .price_plan_content_wrap .signin_tab_right .signin_tab_head {
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.hometwo_valu .feature_box .feature_box_head {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+.banner_Header .left_slide_content .banner_head_title {
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .banner_head_title {
+  font-size: 30px;
+  line-height: 35px;
+}
+.banner_Header.home-three {
+  padding-top: 120px;
+}
+
+}
+
+/*================= end  @media (max-width: 576px) ==================*/
+
+@media (max-width: 480px) {
+  .Appily_copyright {
+    text-align: center;
+    margin-bottom: 15px;
+}
+ul.social_item.text-right {
+  text-align: center !important;
+}
+.post_info_details .posted_info .Appily_author img {
+  margin-right: 15px;
+}
+.post_info_details .posted_info .Appily_posted_details h4 {
+  font-size: 18px;
+  line-height: 22px;
+}
+.post_info_details {
+  padding: 30px 15px 30px 15px;
+}
+.post_info_details {
+  margin-bottom: 30px;
+}
+.comment_reply_wrap .comment_text h3 {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+.comment_reply_wrap .comment_media .media-body .comment_name .commenter_name {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.comment_reply_wrap .comment_media {
+  padding: 30px 15px;
+}
+.comment_reply_wrap .comment_media .media-body .comm_des_details {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.leave_comment .commnet_text h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.widget_head_title {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.contact_list .single_contact_item .phone_itemone {
+  display: block;
+}
+.banner_Header.home-three .business_and_plmsolver_banner .banner_head_title {
+  font-size: 25px;
+  line-height: 30px;
+}
+.banner_Header .left_slide_content .banner_head_title {
+  font-size: 25px;
+  line-height: 30px;
+}
+.home3 .featureswrap_heading .feature_Heading_Home {
+  line-height: 28px;
+  font-size: 22px;
+}
+.Appily_how_it_works_wrap .Appily_how_it_tab_content_wrap .Appily_how_it_tab_content .tab-content .tab-pane .Appily_tab_mockup_slider .Appily_tab_mockup_slide_item .Appily_tab_mockup_content .Appily_tab_mockup_title {
+  font-size: 22px;
+  line-height: 25px;
+}
+.featureswrap_heading .feature_Heading_Home {
+  font-size: 22px;
+  line-height: 28px;
+}
+.apps_face_screenshot.homethree_scrshot .featureswrap_heading .feature_Heading_Home {
+  margin-bottom: 30px;
+}
+
+}
+
+/*================= end  @media (max-width: 480px) ==================*/
+
+@media (max-width: 420px) {
+  .Appily_header_menu {
+    overflow-y: scroll;
+    max-height: 400px;
+  }
+  .video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_2 {
+    left: 0;
+    top: 170px;
+}
+.video_logo_carosuel_wrapper .custom_mtB .watch_left_slide_video .get_videos_shape_3 {
+  left: 70px;
+  bottom: 0;
+}
+.get_our_apps .get_apps_shape_2 {
+  left: 0;
+  top: 130px;
+}
+.app_screenshot_heading .section_head {
+  margin-bottom: 15px;
+}
+.feature_wrap .featureswrap_heading .feature_Heading_Home {
+  font-size: 20px;
+  line-height: 26px;
+}
+.about_right_app .about_app_title {
+  font-size: 22px;
+  line-height: 28px;
+}
+.app_screenshot_heading .section_head {
+  font-size: 25px;
+}
+.about_our_apps_wrap.about_page .about_our_apps_right .about_our_apps_head {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 6px;
+}
+.feature_wrap .featureswrap_Details .featureswrap_min_head {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 6px;
+}
+.Appily_footer_wrap .Appily_footer_top .Appily_footer_widget a img {
+  margin-bottom: 20px;
+}
+.Appily_Error_wrap .error_content .error_heading {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+/* comming soon */
+.Appily_Error_wrap.comming_soon .error_content .error_heading {
+  font-size: 24px;
+}
+.Appily_Error_wrap.comming_soon .error_content .error_headtwo {
+  font-size: 24px;
+}
+.Appily_Error_wrap .error_content .email_box .subscribe_fields .single_fields button.primary_Btn {
+  padding: 8px 28px;
+}
+.Appily_Error_wrap .error_content .email_box .subscribe_fields .single_fields input {
+  padding: 6px 15px;
+}
+.Appily_Error_wrap .error_content .email_box .subscribe_fields .single_fields:nth-child(2) {
+  margin-left: 15px;
+}
+.post_info_details .posted_info .Appily_author img {
+  margin-right: 10px;
+}
+.post_info_details .posted_info_social ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 4px;
+}
+.post_info_details .posted_info .Appily_posted_details h4 {
+  font-size: 15px;
+  line-height: 22px;
+}
+.post_info_details .posted_info .Appily_posted_details p {
+  font-size: 14px;
+  line-height: 22px;
+}
+.comment_reply_wrap .comment_media .media-body .comment_name .commenter_name {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.comment_reply_wrap .comment_media .media-body .comm_des_details {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 4px;
+}
+.comment_reply_wrap .comment_media .media-body .comment_name .comment_date {
+  font-size: 15px;
+  line-height: 22px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_img .Post_date {
+  right: 30px;
+  bottom: -30px;
+  width: 70px;
+  height: 70px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_img .Post_date span {
+  font-size: 16px;
+  line-height: 20px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_title {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+.Appily_how_it_works_wrap.homethree_works .Appily_how_it_tab_wrap nav .Appily_how_it_tab a {
+  margin: 0px 4px 10px;
+  padding: 8px 28px;
+  min-width: 130px;
+}
+.price_plan_wrap .price_plan_tab_wrap nav ul.price_plan_nav_tab .nav-item .nav-link {
+  font-size: 14px;
+  margin: 0 4px 10px;
+  padding: 8px 28px;
+}
+
+}
+/*================= end  @media (max-width: 420px) ==================*/
+
+
+@media (max-width: 380px) {
+  .how_it_works_screenshot .it_work_app_right {
+    height: 745px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_content .post_info ul li + li {
+  margin-left: 2px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_content .post_info ul li a {
+  font-size: 14px;
+  line-height: 40px;
+}
+.blog_wrap .blog_content .blog_single_item .blog_post .post_content .posted_name .posted_by {
+  font-size: 14px;
+  line-height: 30px;
+}
+.comment_reply_wrap .comment_media .media-body .reply_btn .primary_Btn {
+  padding: 4px 26px;
+}
+
+}
+/* ================= end  @media (max-width: 380px) ================== */
+
+@media (max-width: 375px) {
+
+}
+/* ================= end  @media (max-width: 375px) ================== */
+
+  @media (max-width: 360px) {
+    .how_it_works_screenshot .it_work_app_right {
+      height: 720px;
+  }
+
+} 
+/* ================= end  @media (max-width: 360px) ================== */

@@ -1,0 +1,271 @@
+/*========================================        Appily-header               =========================================*/
+
+.Appily_header {
+    padding: 30px 0;
+    @include transition(0.5s);
+    .header_nav {
+        padding: 0;
+        outline: none;
+        .logo {
+            img {
+                max-width: 80px;
+                width: 100%;
+                & + img {
+                    display: none;
+                }
+            }
+        }
+        .hamburger_Btn {
+            padding: 0;
+            outline: none;
+            .bar_icon {
+                width: 30px;
+                height: 16px;
+                position: relative;
+                display: inline-block;
+                .bar {
+                    position: absolute;
+                    width: 100%;
+                    background: #1b00ff;
+                    height: 2px;
+                    left: 0;
+                    @include transition(0.5s);
+                    &.bar_1 {
+                        top: 0;
+                    }
+                    &.bar_2 {
+                        top: 50%;
+                    }
+                    &.bar_3 {
+                        top: 100%;
+                    }
+                }
+            }
+            &[aria-expanded="true"] {
+                .bar {
+                    &.bar_1 {
+                        top: 50%;
+                        transform: rotate(45deg);
+                    }
+                    &.bar_2 {
+                        opacity: 0;
+                    }
+                    &.bar_3 {
+                        top: 50%;
+                        transform: rotate(-45deg) translateY(-50%);
+                    }
+                }
+            }
+        }
+        .Appily_header_menu {
+            ul {
+                align-items: center;
+                li.nav-item {
+                    margin-left: 50px;
+                    a.nav-link {
+                        padding: 0;
+                        color: $white-color;
+                        font-family: $font;
+                        font-weight: 400;
+                        line-height: 30px;
+                        @include transition(0.5s);
+                        position: relative;
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            bottom: 0;
+                            height: 1px;
+                            right: 0;
+                            width: 0;
+                            opacity: 0;
+                            @include transition(0.5s);
+                            background: $white-color;
+                        }
+                        &:hover {
+                            &::before {
+                                width: 100%;
+                                opacity: 1;
+                                left: 0;
+                                right: auto;
+                            }
+                        }
+                        &.dropdown-toggle {
+                            &::after {
+                                position: absolute;
+                                content: "\33";
+                                right: -17px;
+                                top: 0;
+                                font-family: "eleganticons";
+                                border: none;
+                                padding: 0;
+                            }
+                        }
+                    }
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &.active {
+                        a.nav-link {
+                            &::before {
+                                width: 100%;
+                                opacity: 1;
+                                left: 0;
+                                right: auto;
+                            }
+                        }
+                    }
+                    .dropdown-menu {
+                        padding: 20px 30px;
+                        border-radius: 4px;
+                        @include transition(0.5s);
+                        background-color: rgb(255, 255, 255);
+                        border: none;
+                        li {
+                            display: block;
+                            a {
+                                color: #74748c;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 36px;
+                                background: transparent;
+
+                                &:hover {
+                                    color: $theme-backround;
+                                    background: transparent;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        a {
+                            &:hover {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .GetNbtn {
+            margin-left: 40px;
+            a.primary_Btn {
+                &:hover {
+                    color: $white-color;
+                    border: 1px solid $white-color;
+                }
+            }
+        }
+    }
+    &.Appily_header_transparent {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        &.fixedMenu {
+            padding: 25px 0;
+            background: $white-color;
+            box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+            @include transition(0.5s);
+            .header_nav {
+                .logo {
+                    img {
+                        display: none;
+                        & + img {
+                            display: block;
+                        }
+                    }
+                }
+                .Appily_header_menu {
+                    ul {
+                        li.nav-item {
+                            a.nav-link {
+                                color: #000;
+                                &:hover {
+                                    color: $theme-backround;
+                                }
+                            }
+                        }
+                    }
+                }
+                .GetNbtn {
+                    margin-left: 40px;
+                    a.primary_Btn {
+                        &:hover {
+                            color: $theme-color;
+                            border: 1px solid $theme-backround;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*================================== home two  ================================*/
+.Appily_header.home-two-nav {
+    .header_nav {
+        .Appily_header_menu {
+        }
+        .GetNbtn {
+            a.primary_Btn {
+                background-color: $themecolorthree;
+                border: 1px solid $themecolorthree;
+                &:hover {
+                    color: $white-color;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    &.Appily_header_transparent {
+        &.fixedMenu {
+            .header_nav {
+                .GetNbtn {
+                    margin-left: 40px;
+                    a.primary_Btn {
+                        background-color: $themecolorthree;
+                        &:hover {
+                            color: $themecolorthree;
+                            border: 1px solid $themecolorthree;
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*========================================         Appily-header      =========================================*/
+
+.Appily_header.home-three-nav {
+    .header_nav {
+        .Appily_header_menu {
+        }
+        .GetNbtn {
+            a.primary_Btn {
+                background-color: $themecolorthree;
+                border: 1px solid $themecolorthree;
+                &:hover {
+                    color: $white-color;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    &.Appily_header_transparent {
+        &.fixedMenu {
+            .header_nav {
+                .GetNbtn {
+                    margin-left: 40px;
+                    a.primary_Btn {
+                        background-color: $themecolorthree;
+                        &:hover {
+                            color: $themecolorthree;
+                            border: 1px solid $themecolorthree;
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

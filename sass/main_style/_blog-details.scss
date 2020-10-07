@@ -1,0 +1,64 @@
+/*==================================  blog details page ================================*/
+.blog_wrap.blog_post_details {
+    .blog_content {
+        .blog_single_item {
+            margin-bottom: 100px;
+            &:nth-child(3) {
+                margin-bottom: 60px;
+            }
+            .Blog_post_border {
+                width: 388px;
+                border-bottom: 1px solid #d1cfce;
+                max-width: 100%;
+                margin-top: 60px;
+            }
+        }
+    }
+}
+/*================================== pagination css  ================================*/
+
+.pagination_content {
+    .navigation {
+        .pagination {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: $fontassistant;
+                    font-weight: $f-weight-blold;
+                    font-size: 14px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    border: 1px solid #d2d0cf;
+                    color: $theme-color;
+                    text-decoration: none;
+                    @include transition(0.5s);
+                    border-radius: 50%;
+
+                    i {
+                        font-size: 18px;
+                    }
+                }
+                & + li {
+                    margin-left: 10px;
+                }
+                &.active,
+                &:hover {
+                    a {
+                        background: $theme-backround;
+                        border: 1px solid $theme-backround;
+                        color: $white-color;
+                        box-shadow: $b-shadow;
+                    }
+                }
+            }
+        }
+    }
+}

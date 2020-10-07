@@ -1,0 +1,208 @@
+/*================================== all keyframes  ================================*/
+.shape_1 {
+    animation: tada 3s linear infinite;
+}
+@keyframes shape_1 {
+    0% {
+        transform: scale(1);
+    }
+    10%,
+    20% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale(1.1) rotate(3deg);
+    }
+    40%,
+    60%,
+    80% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(1) rotate(0);
+    }
+}
+/*================================== all keyframes  ================================*/
+//
+// animation: slide 3s linear infinite;
+.shape_5 {
+    animation: slide 3s linear infinite;
+}
+@keyframes shape_5 {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -39px 0;
+    }
+}
+
+// review area
+.ss-shap-5 {
+    animation: pulse 1s infinite alternate;
+}
+@keyframes pulse {
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+//   testimonial wrapper
+.ss-shap-6 {
+    animation: movetesmove 20s infinite alternate;
+}
+@keyframes movetesmove {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+    }
+
+    20% {
+        transform: translate(73px, -1px) rotate(36deg) scale(0.9);
+    }
+    40% {
+        transform: translate(141px, 72px) rotate(72deg) scale(1);
+    }
+    60% {
+        transform: translate(83px, 122px) rotate(108deg) scale(1.2);
+    }
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg) scale(1.1);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+    }
+}
+
+//   get apps
+.get_apps_shape_5 {
+    animation: moveapps5 20s linear infinite;
+}
+@keyframes moveapps5 {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(70px, -1px) rotate(45deg);
+    }
+    40% {
+        transform: translate(160px, -20px) rotate(65deg);
+    }
+    70% {
+        transform: translate(80px, -60px) rotate(120deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+//   video area
+.get_videos_shape_4 {
+    animation: shap4move 10s linear infinite;
+}
+@keyframes shap4move {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50px, 50px) rotate(0deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+
+.get_videos_shape_5 {
+    animation: animationmove 30s linear infinite;
+}
+@keyframes animationmove {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    20% {
+        transform: translate(8px, -20px) rotate(38deg);
+    }
+    45% {
+        transform: translate(-50px, -60px) rotate(74deg);
+    }
+    60% {
+        transform: translate(-20px, -30px) rotate(108deg);
+    }
+    80% {
+        transform: translate(-195px, -49px) rotate(144deg);
+    }
+    100% {
+        transform: translate(-1px, 0px) rotate(180deg);
+    }
+}
+
+//our apps
+
+.get_apps_shape_2 {
+    animation: slide2 2s linear infinite;
+    background-position: center;
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+    50% {
+        transform: translate(10px, -5px) rotate(0deg);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+// background color move
+@keyframes sliderShape {
+    0%,
+    100% {
+        border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    34% {
+        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+        transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+    }
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    67% {
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+//   video color spread
+
+@keyframes v_play {
+    0% {
+        opacity: 1;
+        width: 0;
+        height: 0;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        width: 300%;
+        height: 300%;
+    }
+}

@@ -1,0 +1,369 @@
+/*================================== home how it works page 1  ================================*/
+.how_it_works_screenshot {
+    position: relative;
+    overflow: hidden;
+    padding: 130px 0 150px;
+    .shape_bg {
+        position: absolute;
+        top: 110px;
+        right: -255px;
+        bottom: 0;
+        background-position: bottom;
+        background-size: contain;
+    }
+    .about_right_app {
+        margin-top: 95px;
+        margin-right: 15px;
+    }
+    .it_work_app_right {
+        position: relative;
+        z-index: 2;
+        .it_work_app_right_img1 {
+            position: absolute;
+            left: 50px;
+            z-index: 1;
+        }
+        .it_work_app_right_img2 {
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            top: -80px;
+        }
+    }
+    /*================================== app screenshot  page 1  ================================*/
+    .custom_mb_b {
+        margin-bottom: 280px;
+    }
+}
+/*================================== custom container  ================================*/
+.container.custom_container {
+    max-width: 1580px;
+    width: 100%;
+}
+/*================================== section header all  ================================*/
+.app_screenshot_heading {
+    .section_head {
+        font-size: 30px;
+        font-weight: $f-weight-blold;
+        color: $theme-colortwo;
+        line-height: $l-hight;
+        font-family: $font;
+        text-transform: capitalize;
+        margin-bottom: $mb-30;
+    }
+    .app_screenshot_pra {
+        max-width: 515px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: $font;
+        font-size: $f-size;
+        font-weight: $f-weight-r;
+        line-height: $l-hight;
+        color: $theme-color;
+        margin-bottom: 60px;
+    }
+}
+
+/*================================== home page 2 how it works  ================================*/
+.how_it_work_two_wrapper.hometwo_works {
+    padding: 67px 0 95px;
+    .price_plan_wrap {
+        padding: 20px 0 60px;
+        .price_plan_tab_wrap {
+            nav {
+                ul.price_plan_nav_tab {
+                    .nav-item {
+                        .nav-link {
+                            border: 1px solid #e3e3e3;
+                            &.active,
+                            &:hover {
+                                background: $themecolorthree;
+                                color: $white-color;
+                                border: 1px solid transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .price_plan_content_wrap {
+        margin-bottom: 220px;
+        .signin_tab_left {
+            position: relative;
+            .facebook_icon {
+                position: absolute;
+                right: -15px;
+                top: -30px;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+            }
+            .phn_gadgets {
+                position: relative;
+                left: 208px;
+                box-shadow: 8.77px 25.541px 95.4px 7.9px rgba(51, 51, 51, 0.1);
+            }
+            .overview_icon {
+                position: absolute;
+                right: -48px;
+                top: 115px;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+            }
+            .twitter_icon {
+                position: absolute;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+                bottom: 65px;
+                right: 30px;
+            }
+            .express_icon {
+                position: absolute;
+                left: 105px;
+                top: 40px;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+            }
+            .profile_icon {
+                position: absolute;
+                top: 250px;
+                left: 0;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+            }
+            .amazon_icon {
+                position: absolute;
+                left: 109px;
+                bottom: 50px;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+            }
+            .slider_thumb {
+            }
+        }
+        .signin_tab_right {
+            margin-left: 84px;
+            .signin_tab_head {
+                font-family: $fontassistant;
+                font-weight: $f-weight-blold;
+                font-size: 24px;
+                line-height: $l-hight;
+                color: $theme-colortwo;
+            }
+            .signin_tab_pra {
+                font-family: $fontassistant;
+                font-weight: $f-weight-r;
+                font-size: 16px;
+                line-height: $l-hight;
+                color: $theme-color;
+            }
+            .primary_Btn {
+                border: 1px solid $themecolorthree;
+                background: $themecolorthree;
+                &:hover {
+                    background: transparent;
+                    color: $themecolorthree;
+                }
+            }
+        }
+    }
+    /*-----------app_stitctics----------*/
+    .app_stitctics_wrap {
+        .app_stitctics_left {
+            .section_head_title {
+                .head_title_mini {
+                    text-align: left;
+                }
+                .dash-head {
+                    text-align: left;
+                }
+                .section_valu_pra {
+                    .valu_pra {
+                        text-align: left;
+                        margin-bottom: 65px;
+                    }
+                    .primary_Btn {
+                        background: $themecolorthree;
+                        color: $white-color;
+                        border: 1px solid $themecolorthree;
+                        &:hover {
+                            background: transparent;
+                            color: $themecolorthree;
+                        }
+                    }
+                }
+            }
+        }
+        .app_stitctics_right {
+            margin-left: 95px;
+            position: relative;
+            .phn_gadgets {
+                position: relative;
+                left: 110px;
+            }
+            .slider_thumb {
+                &::before {
+                    left: 0;
+                    // top: 0;
+                }
+            }
+            .count_mezar {
+                max-width: 130px;
+                width: 100%;
+                height: 130px;
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+                text-align: center;
+                padding-top: 18px;
+                background: $white-color;
+            }
+            .funny_count_icon {
+                margin-bottom: 10px;
+            }
+            h3.funny_count_number {
+                font-family: $fontassistant;
+                font-weight: $f-weight-semi;
+                font-size: 24px;
+                line-height: $l-hight;
+                color: $theme-colortwo;
+                margin-bottom: 3px;
+                .funny_count {
+                }
+            }
+            .download_count_des {
+                font-family: $fontassistant;
+                font-weight: $f-weight-r;
+                font-size: $f-size;
+                line-height: $l-hight;
+                text-transform: capitalize;
+                color: #666666;
+            }
+            .download_count {
+                position: absolute;
+                left: -30px;
+                top: 85px;
+            }
+            .feedback_count {
+                position: absolute;
+                left: 40px;
+                bottom: 45px;
+            }
+            .dailyuser_count {
+                position: absolute;
+                right: 110px;
+                top: 85px;
+            }
+            .following_count {
+                position: absolute;
+                right: 60px;
+                bottom: 70px;
+            }
+        }
+    }
+}
+/*================================== home page 3 How It Works  ================================*/
+.Appily_how_it_works_wrap {
+    padding: 68px 0;
+    background-color: $white-color;
+    overflow: hidden;
+    position: relative;
+    /*================== home page3 second row in tab buttons  =================*/
+    .Appily_how_it_tab_wrap {
+        nav {
+            .Appily_how_it_tab {
+                justify-content: center;
+                margin-bottom: 60px;
+                border-bottom: none;
+                a {
+                    font-size: 14px;
+                    font-family: $font;
+                    font-weight: $f-weight-blold;
+                    color: $theme-colortwo;
+                    line-height: 24px;
+                    display: inline-block;
+                    border: 1px solid #e3e3e3;
+                    margin: 0 5px;
+                    padding: 14px 32px;
+                    border-radius: 50px;
+                    min-width: 140px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    @include transition(0.5s);
+                    background: $white-bg;
+                    &.active,
+                    &:hover {
+                        background: $themecolorthree;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    /*================== home page3 third row in tab buttons  =================*/
+    .Appily_how_it_tab_content_wrap {
+        .Appily_how_it_tab_content {
+            .tab-content {
+                .tab-pane {
+                    display: block;
+                    &.fade:not(.show) {
+                        width: 100%;
+                        position: absolute;
+                        visibility: hidden;
+                    }
+                    .Appily_tab_mockup_slider {
+                        .Appily_tab_mockup_slide_item {
+                            outline: none;
+                            padding: 0 0 50px;
+                            .Appily_tab_mockup_img {
+                            }
+                            .Appily_tab_mockup_content {
+                                img {
+                                }
+                                .Appily_tab_mockup_title {
+                                    font-size: 24px;
+                                    font-family: $font;
+                                    line-height: $l-hight;
+                                    color: $theme-colortwo;
+                                    font-weight: $f-weight-blold;
+                                }
+                                .Appily_tab_mockup_para {
+                                    font-size: $f-size;
+                                    font-family: $font;
+                                    line-height: $l-hight;
+                                    color: $theme-color;
+                                    font-weight: $f-weight-r;
+                                }
+                                .primary_Btn {
+                                    background: $themecolorthree;
+                                    border: 1px solid $themecolorthree;
+                                    color: $white-color;
+                                    &:hover {
+                                        border: 1px solid $themecolorthree;
+                                        background: transparent;
+                                        color: $themecolorthree;
+                                    }
+                                }
+                            }
+                        }
+                        .slick-dots li {
+                            background-color: transparent;
+                            border-width: 2px;
+                            border-color: rgb(163, 159, 158);
+                            border-style: solid;
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+
+                            button {
+                                width: 12px;
+                                height: 12px;
+                                border-radius: 50%;
+                                display: none;
+                            }
+                            &.slick-active {
+                                background-color: $themecolorthree;
+                                border: none;
+                                width: 12px;
+                                height: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

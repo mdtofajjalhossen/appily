@@ -1,0 +1,83 @@
+/*================================== app screenshot slider ================================*/
+.app_Screenshot_slider {
+    .app_single_item {
+        text-align: center;
+        padding: 0px 10px 60px;
+        // margin: 0 5px;
+        outline: none;
+        img{
+            box-shadow: 0 10px 15px 0px rgba(2, 7, 40, 0.06);
+            display: inline-block;
+        }
+        &.slick-slide.slick-current.slick-active{
+            img {
+                box-shadow: 0 30px 25px 0px rgba(2, 20, 40, 0.09);
+                @include transition(0.5s);
+                transform: scale(1.04);
+            }
+        }
+    }
+    .slick-dots li {
+        background: #d1cfce;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        button {
+            display: none;
+        }
+        &.slick-active {
+            border: 4px solid $theme-backround;
+            background: transparent;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+        }
+    
+    }
+
+}
+/*================================== home page 2  ================================*/
+.screenshot_slide_wrapper {
+    padding: 90px 0 70px;
+    .slick-dots li {
+        &.slick-active {
+            border: none;
+            background: $themecolorthree;
+        }
+    
+    }
+}
+/*================================== home page 3  ================================*/
+.apps_face_screenshot {
+    padding: 66px 0;
+    .featureswrap_heading {
+        max-width: 550px;
+        .featureswrap_heading_chosse_us {
+            margin-bottom: 12px;
+        }
+        .feature_Heading_Home {
+            margin-bottom: 60px;
+        }
+    }
+    .app_Screenshot_slider {
+
+    }
+    .slick-dots li {
+        background: transparent;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 2px solid #a39f9e;
+        button {
+            display: none;
+        }
+        &.slick-active {
+            border: none;
+            background: $themecolorthree;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+    
+    }
+}

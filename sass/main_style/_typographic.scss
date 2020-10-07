@@ -1,0 +1,72 @@
+/*==================================  typographic  ================================*/
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+.mb_20 {
+    margin-bottom: 20px;
+}
+.mb_25 {
+    margin-bottom: 25px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+.mb_35 {
+    margin-bottom: 35px;
+}
+.mb_55 {
+    margin-bottom: 55px;
+}
+.mb_60 {
+    margin-bottom: 60px;
+}
+.mb_65 {
+    margin-bottom: 65px;
+}
+.mt_65 {
+    margin-top: 60px;
+}

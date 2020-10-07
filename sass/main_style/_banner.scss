@@ -1,0 +1,169 @@
+/*================================== home banner page 1  ================================*/
+.banner_Header {
+    overflow: hidden;
+    position: relative;
+    padding: 120px 0 0;
+    background: #6934ff url("../image/banner/home-bg.png") no-repeat scroll center 0 / cover;
+    .shape_1 {
+        position: absolute;
+        left: 20px;
+        top: 95px;
+    }
+    .shape_2 {
+        position: absolute;
+        left: 40px;
+        bottom: 295px;
+    }
+    .shape_3 {
+        position: absolute;
+        right: 125px;
+        top: 185px;
+    }
+    .shape_4 {
+        position: absolute;
+        right: 95px;
+        bottom: 125px;
+    }
+    .shape_5 {
+        position: absolute;
+        bottom: 150px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        animation: shape_5 3s linear infinite;
+        background-position: center;
+    }
+
+    .left_slide_content {
+        margin-top: 230px;
+        margin-bottom: 270px;
+        .banner_head_title {
+            font-size: 48px;
+            color: $white-color;
+            font-weight: $f-weight-blold;
+            font-family: $font;
+            line-height: 64px;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+        }
+        .banner_Pra.all_Pra {
+            font-family: $font;
+            line-height: $l-hight;
+            font-size: $f-size;
+            color: $white-color;
+            font-weight: $f-weight;
+            margin-right: -50px;
+            margin-bottom: 65px;
+        }
+        .primary_Btn.app_btn_primary {
+            &:hover {
+                color: $white-color;
+                border: 1px solid $white-color;
+            }
+        }
+        .secondary_Btn.slide_btn {
+            margin-left: 20px;
+            @include transition(0.5s);
+            padding: 12px 31px;
+            &:hover {
+                background: $theme-backround;
+                box-shadow: $btn-shadow;
+                border: 1px solid $theme-backround;
+            }
+        }
+    }
+    .right_Slider_bar {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/*================================== home page two  ================================*/
+.banner_Header.home-two {
+    overflow: hidden;
+    position: relative;
+    padding: 120px 0 0;
+    background-image: linear-gradient(142deg, #6934ff 0%, #9c20cf 99%);
+    opacity: 0.9;
+    .left_slide_content {
+        .banner_head_title {
+        }
+        .banner_Pra.all_Pra {
+        }
+        .primary_Btn.app_btn_primary {
+            background-color: $themecolorthree;
+            border: 1px solid $themecolorthree;
+            
+           
+            &:hover {
+                color: $white-color;
+                background-color: transparent;
+                border: 1px solid $white-color;
+                
+            }
+        }
+        .secondary_Btn.slide_btn {
+            margin-left: 20px;
+            @include transition(0.5s);
+            padding: 12px 31px;
+            border: 1px solid $white-color;
+            &:hover {
+                background: $themecolorthree;
+                box-shadow: $btn-shadow;
+                border: 1px solid $themecolorthree;
+            }
+        }
+    }
+    .right_Slider_bar {
+        position: absolute;
+        bottom: 0;
+        text-align: right;
+        width: 100%;
+    }
+}
+/*================================== home page three  ================================*/
+.banner_Header.home-three {
+    background: #fff url("../image/banner/home-bg-3.png") no-repeat scroll center 0 / cover;
+    padding-top: 280px;
+    .business_and_plmsolver_banner {
+        max-width: 840px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        .banner_head_title {
+            font-size: 48px;
+            color: $white-color;
+            font-weight: $f-weight-blold;
+            font-family: $font;
+            line-height: 64px;
+            text-transform: capitalize;
+            margin-bottom: 55px;
+        }
+        .business_banner_btn {
+            margin-bottom: 100px;
+            .primary_Btn {
+                padding: 12px 32px;
+                margin-right: 20px;
+                background: $themecolorthree;
+                border: 1px solid $themecolorthree;
+                &:hover {
+                    border: 1px solid $white-color;
+                    color: $white-color;
+                    background: transparent;
+                }
+            }
+            .secondary_Btn {
+                padding: 12px 29px;
+                &:hover {
+                    border: 1px solid $themecolorthree;
+                    background: $themecolorthree;
+                }
+            }
+        }
+        .business_banner_img {
+        }
+    }
+}
+

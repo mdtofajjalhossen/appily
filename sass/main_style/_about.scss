@@ -1,0 +1,197 @@
+/*================================== home page 1 page about  ================================*/
+.about-wrapper {
+    overflow: hidden;
+    position: relative;
+    padding: 80px 0 100px;
+    .about-wrapper-shape {
+        position: absolute;
+        background: url("../image/Layer 0.png");
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+    }
+    .about_left_image {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        img {
+        }
+    }
+}
+.about_right_app {
+    margin-right: 25px;
+    .about_app_name {
+        font-size: 18px;
+        font-weight: $f-weight-semi;
+        color: #666666;
+        line-height: $l-hight;
+        text-transform: capitalize;
+    }
+    .about_app_title {
+        font-size: 30px;
+        line-height: 44px;
+        font-weight: $f-weight-blold;
+        color: $theme-colortwo;
+    }
+    .about_app_pra {
+    }
+    .media.app_left_icon {
+        img {
+        }
+        .media-body.media_details {
+            margin-left: 30px;
+
+            .media_details_heading {
+                font-size: 18px;
+                font-weight: $f-weight-semi;
+                line-height: $l-hight;
+                margin-bottom: 6px;
+            }
+            .media_details_pra {
+            }
+        }
+    }
+}
+
+/*================================== home page 3 about  ================================*/
+.about_our_apps_wrap.homethre_about {
+    padding: 75px 0;
+    .about_our_apps_left {
+        position: relative;
+        z-index: 1;
+        img {
+        }
+        .about_our_apps_img2 {
+            position: absolute;
+            left: -130px;
+            bottom: -50px;
+            z-index: -1;
+            right: -30px;
+
+            img {
+            }
+        }
+    }
+    .about_our_apps_right {
+        padding-left: 130px;
+        .about_our_apps_head {
+            font-family: $font;
+            color: $theme-colortwo;
+            font-size: 30px;
+            font-weight: $f-weight-blold;
+            line-height: $l-hight;
+        }
+        .about_our_apps_pra {
+            font-size: $f-size;
+            font-family: $font;
+            font-weight: $f-weight-r;
+            line-height: 24px;
+            color: #666666;
+        }
+        .apps_pragph2 {
+        }
+        .primary_Btn {
+            background: $themecolorthree;
+            border: 1px solid $themecolorthree;
+            color: $white-color;
+            &:hover {
+                border: 1px solid $themecolorthree;
+                background: transparent;
+                color: $themecolorthree;
+            }
+        }
+    }
+}
+
+/*================================== about page details  ================================*/
+.header_banner_content {
+    .banner_title {
+        font-size: 48px;
+        color: $white-color;
+        font-weight: $f-weight-blold;
+        font-family: $font;
+        line-height: 64px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .call_para {
+        font-family: $font;
+        font-size: $f-size;
+        line-height: $l-hight;
+        color: $white-color;
+        font-weight: $f-weight-semi;
+        max-width: 580px;
+        margin: 0 auto;
+    }
+}
+.banner_Header.home-two.about_page {
+    padding: 220px 0 120px;
+}
+
+/*================================== about page about features  ================================*/
+.feature_wrap.about_page {
+    padding: 150px 0 70px;
+    .featureswrap_Details {
+        cursor: pointer;
+        &.fewdetailsactive {
+            box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.06);
+        }
+    }
+}
+/*================================== about page our apps  ================================*/
+.about_our_apps_wrap.about_page {
+    padding: 75px 0 200px;
+    .about_our_apps_left {
+        position: relative;
+        z-index: 1;
+        img {
+        }
+        .about_our_apps_img2 {
+            position: absolute;
+            left: -130px;
+            bottom: -50px;
+            z-index: -1;
+            right: -30px;
+
+            img {
+            }
+        }
+    }
+    .about_our_apps_right {
+        padding-left: 130px;
+        margin-top: 130px;
+        .about_our_apps_head {
+            font-family: $font;
+            color: $theme-colortwo;
+            font-size: 30px;
+            font-weight: $f-weight-blold;
+            line-height: $l-hight;
+        }
+        .about_our_apps_pra {
+            font-size: $f-size;
+            font-family: $font;
+            font-weight: $f-weight-r;
+            line-height: 24px;
+            color: #666666;
+        }
+        .apps_pragph2 {
+        }
+        .primary_Btn {
+            background: $themecolorthree;
+            border: 1px solid $themecolorthree;
+            color: $white-color;
+            &:hover {
+                border: 1px solid $themecolorthree;
+                background: transparent;
+                color: $themecolorthree;
+            }
+        }
+    }
+}
+/*================================== about page get our apps  ================================*/
+.get_our_apps.about_page {
+padding: 150px 0;
+}

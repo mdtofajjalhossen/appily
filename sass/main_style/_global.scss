@@ -1,0 +1,214 @@
+/*==================================  global  ================================*/
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+p {
+    font-family: $font;
+    line-height: $l-hight;
+    font-size: $f-size;
+    color: $theme-color;
+    font-weight: $f-weight-r;
+}
+
+.primary_Btn {
+    display: inline-block;
+    color: $white-color;
+    font-size: 14px;
+    font-weight: $f-weight-blold;
+    background: $theme-backround;
+    border: 1px solid $theme-backround;
+    box-shadow: $btn-shadow;
+    border-radius: $border-radius;
+    line-height: 26px;
+    text-transform: $text-up;
+    padding: 12px 27px;
+    @include transition(0.5s);
+    min-width: 160px;
+    outline: none;
+    text-align: center;
+    &:hover {
+        text-decoration: none;
+        color: $theme-backround;
+        box-shadow: none;
+        background: transparent;
+    }
+}
+.secondary_Btn {
+    display: inline-block;
+    color: $white-color;
+    font-size: 14px;
+    font-weight: $f-weight-blold;
+    border: 1px solid $white-color;
+    box-shadow: none;
+    border-radius: $border-radius;
+    line-height: 26px;
+    text-transform: $text-up;
+    padding: 12px 21px;
+    @include transition(0.5s);
+    outline: none;
+    &:hover {
+        text-decoration: none;
+        color: $white-color;
+    }
+}
+
+/*================================== preloader css  ================================*/
+
+.Appily-preloader {
+    align-items: center;
+    -webkit-align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    height: 100%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+    background: $white-color;
+  }
+  .Appily-preloader .anim-preloader {
+    position: absolute;
+    z-index: 100;
+  }
+  /* Spinner */
+  .Appily-preloader .anim-preloader .spinner {
+    animation: spinner 1s infinite linear;
+    border-radius: 50%;
+    border: 3px solid $themecolorthree;
+    border-top-color: $theme-backround; 
+    height: 100px;
+    margin: 0 auto 45px auto;
+    width: 100px;
+  }
+  /* Text */
+  .Appily-preloader .anim-preloader .txt-loading {
+    text-align: center;
+    user-select: none;
+  }
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading:before {
+    animation: letters-loading 4s infinite;
+    color: $theme-backround;
+    content: attr(data-text-preloader);
+    left: 0;
+    opacity: 0;
+    top:0;
+    line-height: 70px;
+    position: absolute;
+  }
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 15px;
+    display: inline-block;
+    color: $theme-colortwo;
+    position: relative;
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading:nth-child(2):before {animation-delay: 0.2s;}
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading:nth-child(3):before {animation-delay: 0.4s;}
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading:nth-child(4):before {animation-delay: 0.6s;}
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading:nth-child(5):before {animation-delay: 0.8s;}
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading:nth-child(6):before { animation-delay: 1s;}
+  .Appily-preloader .anim-preloader .txt-loading .letters-loading:nth-child(7):before { animation-delay: 1.2s;}
+  .Appily-preloader .loader-section {
+    background-color: #ffffff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: calc(50% + 1px);
+  }
+  .loaded .anim-preloader {
+    opacity: 0;
+    transition: 0.3s ease-out;
+  }
+  /*================================== preloader keyframes  ================================*/
+  @keyframes spinner {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+  @keyframes letters-loading {
+    0%,
+    75%,
+    100% {
+      opacity: 0;
+      transform: rotateY(-90deg);
+    }
+  
+    25%,
+    50% {
+      opacity: 1;
+      transform: rotateY(0deg);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .Appily-preloader .anim-preloader .spinner {
+      height: 7em;
+      width: 7em;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .Appily-preloader .anim-preloader .spinner {
+      height: 5em;
+      width: 5em;
+    }
+    .Appily-preloader .anim-preloader .txt-loading .letters-loading {font-size: 40px; letter-spacing: 10px;}
+  }
+  
+/*================================== background color move  ================================*/
+.slider_thumb::before {
+  position: absolute;
+  content: "";
+  left: -60px;
+  top: -35px;
+  width: 600px;
+  height: 600px;
+  background: #f7f8fd;
+  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+  will-change: border-radius, transform, opacity;
+  animation: sliderShape 5s linear infinite;
+  display: block;
+  z-index: -1;
+  -webkit-animation: sliderShape 5s linear infinite;
+}
+/*================================== heading under border style  ================================*/
+.dash-head {
+  position: relative;
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+  span {
+      display: inline-block;
+      width: 30px;
+      height: 4px;
+      background-color: #f6a9ae;
+      &:nth-child(2) {
+          width: 20px;
+          height: 4px;
+          background-color: #f1757e;
+      }
+      &:nth-child(3) {
+          width: 10px;
+          height: 4px;
+          background-color: #ed535e;
+      }
+  }
+}
+/*================================== custom container and box shadow  ================================*/
+.pos_absolute {
+  position: absolute;
+}
+
+.primary_Btn.box-snone {
+box-shadow: none;
+}
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1170px;
+  }
+}

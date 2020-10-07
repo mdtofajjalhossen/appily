@@ -1,0 +1,275 @@
+/*================================== home priceing table page 1  ================================*/
+.price_plan_wrap {
+    padding: 150px 0;
+    .price_plan_tab_wrap {
+        nav {
+            ul.price_plan_nav_tab {
+                justify-content: center;
+                margin-bottom: 60px;
+                .nav-item {
+                    .nav-link {
+                        color: #1b212f;
+                        font-size: 16px;
+                        font-weight: 700;
+                        display: inline-block;
+                        border: 1px solid #e2e2e2;
+                        margin: 0 10px;
+                        padding: 13px 46px;
+                        border-radius: 25px;
+                        @include transition(0.5s);
+                        text-align: center;
+                        &.active,
+                        &:hover {
+                            background: $theme-backround;
+                            color: $white-color;
+                            border: 1px solid transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-content.price_plan_content_tab {
+        .single_price_plan {
+            position: relative;
+            overflow: hidden;
+            padding: 60px 65px;
+            border: 1px solid #dedede;
+            border-radius: 3px;
+            cursor: pointer;
+            @include transition(0.5s);
+
+            &:before {
+                position: absolute;
+                background: url(../image/price/price-plan.png);
+                content: "";
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: top left;
+                top: -245px;
+                left: 0;
+                transform: rotateZ(207deg);
+            }
+            p {
+                font-size: 18px;
+                font-weight: $f-weight-blold;
+                font-family: $font;
+                line-height: 26px;
+                color: #333333;
+                padding-bottom: 30px;
+                margin-bottom: 25px;
+                border-bottom: 1px solid #d6d3d1;
+            }
+            img {
+                display: block;
+                margin: 0 auto 40px;
+            }
+            .price {
+                font-size: 48px;
+                font-weight: $f-weight-blold;
+                font-family: $font;
+                line-height: 26px;
+                color: #333333;
+                margin-bottom: 35px;
+                .price_symble {
+                    font-size: $f-size;
+                    font-weight: $f-weight-r;
+                    font-family: $font;
+                    line-height: 26px;
+                    color: #333333;
+                    padding-right: 6px;
+                    top: 0;
+                }
+                .monthly {
+                    font-size: $f-size;
+                    font-weight: $f-weight-r;
+                    font-family: $font;
+                    line-height: 26px;
+                    padding-left: 10px;
+                    color: #333333;
+                    top: 0;
+                }
+            }
+            ul {
+                li {
+                    font-size: $f-size;
+                    font-weight: $f-weight-r;
+                    font-family: $font;
+                    line-height: 26px;
+                    color: #333333;
+                    margin-bottom: 15px;
+                    &:last-child {
+                        margin-bottom: 55px;
+                    }
+                }
+            }
+            .price_plan_btn {
+                a.primary_Btn {
+                    background: transparent;
+                    border: 1px solid #dedede;
+                    color: #333333;
+                    box-shadow: none;
+                    padding: 12px 59px;
+                    @include transition(0.5s);
+                }
+            }
+            &:hover {
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.08);
+                border: 1px solid transparent;
+                .price_plan_btn {
+                    a.primary_Btn {
+                        background: $theme-backround;
+                        box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(92, 204, 195, 0.1);
+                        border: 1px solid transparent;
+                        color: $white-color;
+                    }
+                }
+            }
+            &.Second_price_plan {
+                background-color: rgb(255, 255, 255);
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.05);
+                padding: 40px 50px;
+                border: none;
+                &::before {
+                    background: none;
+                    display: none;
+                }
+                .second_price_pra {
+                    font-size: $f-size;
+                    font-weight: $f-weight-r;
+                    font-family: $font;
+                    line-height: $l-hight;
+                    color: #666666;
+                    border-bottom: none;
+                    margin-bottom: 20px;
+                    padding-bottom: 0;
+                }
+                ul {
+                    li {
+                        i.icon_check {
+                            color: #1fe37f;
+                            padding-right: 10px;
+                            // 3b1d99
+                        }
+                    }
+                }
+                &:hover {
+                    box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.08);
+                    .price_plan_btn {
+                        a.primary_Btn {
+                            background: $theme-backround;
+                            box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(92, 204, 195, 0.1);
+                            border: 1px solid transparent;
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+  
+/*================================== home. priceing table page 2  ================================*/
+.price_plan_wrap.hometwo_price {
+    padding: 70px 0 140px;
+    .price_plan_tab_wrap {
+        nav {
+            ul.price_plan_nav_tab {
+                .nav-item {
+                    .nav-link {
+                        &.active,
+                        &:hover {
+                            background: $themecolorthree;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-content.price_plan_content_tab {
+        .single_price_plan {
+            &:hover {
+                .price_plan_btn {
+                    a.primary_Btn {
+                        background: $themecolorthree;
+                    }
+                }
+            }
+            &.Second_price_plan {
+                &:hover {
+                    .price_plan_btn {
+                        a.primary_Btn {
+                            background: $themecolorthree;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*================================== home. priceing table page 3  ================================*/
+.price_plan_wrap.home3 {
+    padding: 68px 0 150px;
+    .price_plan_tab_wrap {
+        nav {
+            ul.price_plan_nav_tab {
+                .nav-item {
+                    .nav-link {
+                        &.active,
+                        &:hover {
+                            background: $themecolorthree;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .price_plan_content_wrap {
+        .single_price_plan.Second_price_plan.price_home_3 {
+            background: $white-color;
+            @include transition(2.3s);
+            padding: 60px 50px;
+            &::before {
+                display: none;
+            }
+            .list-unstyled {
+                li {
+                    &:last-child {
+                        margin-bottom: 35px;
+                    }
+                }
+            }
+
+            &:hover {
+                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.08);
+                background-image: linear-gradient(142deg, rgb(184, 173, 254) 0%, rgb(103, 107, 194) 99%);
+                background: url("../image/shape/price-bg.png") no-repeat scroll center center/ cover;
+                height: 100%;
+                .price {
+                    color: $white-color;
+                    .price_symble {
+                        color: $white-color;
+                    }
+                    .monthly {
+                        color: $white-color;
+                    }
+                }
+                .list-unstyled {
+                    li {
+                        color: $white-color;
+                        &:last-child {
+                        }
+                    }
+                }
+                .price_plan_btn {
+                    .primary_Btn {
+                        background: $white-color !important;
+                        color: $theme-colortwo !important;
+                    }
+                }
+            }
+        }
+    }
+}

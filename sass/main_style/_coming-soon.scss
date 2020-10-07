@@ -1,0 +1,54 @@
+.Appily_Error_wrap {
+    .error_content {
+        img {
+        }
+        .error_heading {
+            font-family: $font;
+            font-size: 60px;
+            color: $theme-colortwo;
+            font-weight: 900;
+        }
+        .error_headtwo {
+            font-family: $font;
+            font-size: 60px;
+            color: $theme-colortwo;
+            font-weight: $f-weight-semi;
+        }
+        .email_box {
+            .subscribe_fields {
+                display: flex;
+                justify-content: center;
+                .single_fields {
+                    input {
+                        border: 1px solid #d1cfce;
+                        color: #1b212f;
+                        padding: 14px 30px;
+                        font-size: $f-size;
+                        font-family: $font;
+                        font-weight: $f-weight-r;
+                        line-height: 30px;
+                        height: auto;
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                        &::placeholder {
+                            color: #a39f9e;
+                        }
+                    }
+                    button.primary_Btn {
+                        border-radius: 3px;
+                        padding: 16px 64px;
+                    }
+                    &:first-child {
+                        max-width: 480px;
+                        width: 100%;
+                    }
+                    &:nth-child(2) {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

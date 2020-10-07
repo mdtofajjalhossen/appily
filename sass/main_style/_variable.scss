@@ -1,0 +1,39 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Md Tofajjal Hossen
+@URL: https://wrapbootstrap.com/user/Happytheme
+This file contains the styling for the actual tempalte, this is the file you need to edit to change the look of the tempalte.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: Appily
+@Author: Md Tofajjal Hossen
+@Developed By: Md Tofajjal Hossen
+@Developer URL: https://wrapbootstrap.com/user/Happytheme
+@Default Styles
+/*----------------------------------------------------*/
+
+/*Base font*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap");
+
+/*================================== all pages variable  ================================*/
+$font: "Source Sans Pro", sans-serif;
+$fontassistant: "Assistant", sans-serif;
+$f-size: 16px;
+$f-weight: 300;
+$f-weight-r: 400;
+$f-weight-semi: 600;
+$f-weight-blold: 700;
+$l-hight: 25px;
+$text-up: uppercase;
+$theme-color: #494d59;
+$theme-colortwo: #1b212f;
+$white-color: #fff;
+$white-bg: #fff;
+$border-radius: 25px;
+$theme-backround: #6934ff;
+$b-shadow: -4.77px 24.541px 87.4px 7.6px rgba(51, 51, 51, 0.1);
+$btn-shadow: 0px 25px 88.35px 6.65px rgba(27, 33, 47, 0.15);
+$t-underline: underline !important;
+$mb-30: 30px;
+$themecolorthree: #f0545f;

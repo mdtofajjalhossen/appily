@@ -1,0 +1,43 @@
+/*================================== home our apps page 1  ================================*/
+.get_our_apps {
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 110px;
+    .about_right_app {
+    }
+    .get_apps_shape_1 {
+        position: absolute;
+        left: 80px;
+        top: 120px;
+    }
+    .get_apps_shape_2 {
+        position: absolute;
+        left: 70px;
+        top: 325px;
+    }
+    .get_apps_shape_3 {
+        position: absolute;
+        bottom: 82px;
+        left: 80px;
+    }
+    .get_apps_shape_4 {
+        position: absolute;
+        top: 110px;
+        right: -50px;
+    }
+    .get_apps_shape_5 {
+        position: absolute;
+        top: 310px;
+        right: -152px;
+    }
+    .get_apps_shape_6 {
+        position: absolute;
+        bottom: 140px;
+        right: -130px;
+    }
+    .get_our_apps_right {
+        margin-right: -150px;
+        img {
+        }
+    }
+}

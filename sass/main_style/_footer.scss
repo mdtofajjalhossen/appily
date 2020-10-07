@@ -1,0 +1,438 @@
+/*================================== home footer page 1  ================================*/
+.Appily_footer_wrap {
+    background: #1b212f url(../image/footer/footer.png) no-repeat center/cover;
+    padding: 100px 0;
+    .Appily_footer_top {
+        margin-bottom: 60px;
+        .Appily_footer_widget {
+            a {
+                img {
+                    margin-bottom: 42px;
+                    max-width: 100px;
+                    width: 100%;
+                }
+            }
+            .footer_para {
+                color: #fff;
+                font-size: 16px;
+            }
+            .Appily_footer_button {
+                font-size: $f-size;
+                $f-weight-semi: 600;
+                text-decoration: underline;
+                color: $white-bg;
+                @include transition(0.5s);
+                &:hover {
+                    color: $themecolorthree;
+                }
+            }
+            // widget title
+            .Appily_footer_title {
+                font-family: $font;
+                color: #fff;
+                font-size: 22px;
+                font-weight: $f-weight-semi;
+                line-height: 26px;
+                margin-bottom: 38px;
+            }
+            // footer menu link
+            .Appily_footer_menu {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    display: block;
+                    margin-bottom: 12px;
+                    a {
+                        display: inline-block;
+                        color: #fff;
+                        font-weight: 400;
+                        font-weight: $f-weight-r;
+                        font-family: $font;
+                        line-height: $l-hight;
+                        @include transition(0.5s);
+                        position: relative;
+                        //f27b3b
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            bottom: 0;
+                            right: 0;
+                            background: $themecolorthree;
+                            width: 0%;
+                            height: 1px;
+                            @include transition(0.5s);
+                        }
+                        &:hover {
+                            color: $themecolorthree;
+                            text-decoration: none;
+                        }
+                        &:hover::before {
+                            right: auto;
+                            left: 0;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            // subscribe area
+            .email_box {
+                display: inline-block;
+                width: 100%;
+                max-width: 470px;
+                position: relative;
+                margin-bottom: 20px;
+            }
+            .subcribes {
+                position: relative;
+                input {
+                    border-radius: 45px;
+                    z-index: 0;
+                    box-shadow: 0px 8px 20px 0px rgba(9, 78, 130, 0.2);
+                    background: $white-color;
+                    color: #1b212f;
+                    font-family: $font;
+                    font-weight: $f-weight-r;
+                    line-height: 30px;
+                    border-radius: 28px !important;
+                    border: 1px solid $white-color;
+                    height: 52px;
+                    padding: 0px 0px 0px 22px;
+                    &::placeholder {
+                        color: #d1cfce;
+                    }
+                }
+
+                .Appily_btn {
+                    position: absolute;
+                    right: 6px;
+                    top: 50%;
+                    text-transform: uppercase;
+                    transform: translateY(-50%);
+                    z-index: 3;
+                    background: $theme-backround;
+                    width: 120px;
+                    height: 44px;
+                    border-radius: 23px;
+                    color: $white-color;
+                    @include transition(0.5s);
+                    &:focus {
+                        box-shadow: none;
+                    }
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                }
+            }
+            .footer_para_join {
+                font-size: 12px;
+                color: $white-color;
+                font-weight: $f-weight;
+                margin-bottom: 40px;
+            }
+            // footer social
+            .Appily_footer_social {
+                .social_item {
+                    li {
+                        display: inline-block;
+                        margin-right: 10px;
+                        a {
+                            display: block;
+                            width: 36px;
+                            height: 36px;
+                            color: #1b212f;
+                            background: $white-color;
+                            line-height: 36px;
+                            text-align: center;
+                            border-radius: 50%;
+                            @include transition(0.5s);
+                            &:hover {
+                                background: $theme-backround;
+                                text-decoration: none;
+                                color: $white-color;
+                                box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(255, 255, 255, 0.15);
+                            }
+                        }
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Appily_footer_bottom {
+        .container.custom_containertwo {
+            max-width: 1540px;
+            width: 100%;
+            border-top: 2px solid #2f3542;
+            padding-top: 60px;
+            .Appily_footer_bottom_inner {
+                .Appily_copyright {
+                    .copy_right_text {
+                        font-size: $f-size;
+                        color: $white-bg;
+                        text-transform: capitalize;
+                    }
+                    a {
+                        font-size: $f-size;
+                        color: $white-color;
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        @include transition(0.5s);
+                        &:hover {
+                            color: $themecolorthree;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*================================== home page 2  ================================*/
+
+.Appily_footer_wrap.home_footer_two {
+    background: #faf9fc;
+    padding: 100px 0;
+    .Appily_footer_top {
+        .Appily_footer_widget {
+            a {
+                img {
+                    max-width: 100px;
+                    width: 100%;
+                }
+            }
+            .footer_para {
+                color: #968f8f;
+                font-size: $f-size;
+                font-family: $fontassistant;
+                line-height: 24px;
+                max-width: 415px;
+                width: 100%;
+            }
+            .Appily_footer_button {
+                font-size: $f-size;
+                color: $theme-colortwo;
+                &:hover {
+                    color: $themecolorthree;
+                }
+            }
+            // widget title
+            .Appily_footer_title {
+                font-family: $fontassistant;
+                color: $theme-colortwo;
+            }
+            // footer menu link
+            .Appily_footer_menu {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    display: block;
+                    margin-bottom: 12px;
+                    a {
+                        display: inline-block;
+                        color: #666666;
+                        font-weight: 400;
+                        font-weight: $f-weight-r;
+                        font-family: $fontassistant;
+                        line-height: $l-hight;
+                        @include transition(0.5s);
+                        position: relative;
+                        &::before {
+                            background: $themecolorthree;
+                        }
+                        &:hover {
+                            color: $themecolorthree;
+                        }
+                        &:hover::before {
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_border {
+        border-top: 2px solid #ebe9ed !important;
+        max-width: 1540px;
+        width: 100%;
+        margin: 0 auto 70px;
+        text-align: center;
+    }
+    .Appily_footer_bottom {
+        .Appily_footer_bottom_inner {
+            .Appily_copyright {
+                .copy_right_text {
+                    font-size: $f-size;
+                    color: $theme-colortwo;
+                }
+            }
+        }
+        .Appily_footer_social {
+            .social_item {
+                li {
+                    display: inline-block;
+                    margin-right: 15px;
+                    a {
+                        display: block;
+                        width: 36px;
+                        height: 36px;
+                        color: #1b212f;
+                        background: #e7e7e7;
+                        line-height: 36px;
+                        text-align: center;
+                        border-radius: 50%;
+                        @include transition(0.5s);
+                        &:hover {
+                            background: $themecolorthree;
+                            text-decoration: none;
+                            color: $white-color;
+                            box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(59, 29, 153, 0.3);
+                        }
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.home_footer_two {
+    .Appily_copyright {
+        .copy_right_text {
+            font-size: $f-size;
+            color: $white-bg;
+            text-transform: capitalize;
+        }
+        a {
+            font-size: $f-size;
+            color: $theme-colortwo;
+            text-decoration: none;
+            text-transform: capitalize;
+            @include transition(0.5s);
+            &:hover {
+                color: $themecolorthree;
+            }
+        }
+    }
+}
+.home3 {
+    .Appily_copyright {
+        .copy_right_text {
+            font-size: $f-size;
+            color: $white-bg;
+            text-transform: capitalize;
+        }
+        a {
+            font-size: $f-size;
+            color: $white-bg;
+            text-decoration: none;
+            text-transform: capitalize;
+            @include transition(0.5s);
+            &:hover {
+                color: $theme-backround;
+            }
+        }
+    }
+}
+
+
+
+/*================================== home page 3  ================================*/
+.Appily_footer_wrap.home_footer_two.home3 {
+    background-image: linear-gradient(142deg, rgb(184, 173, 254) 0%, rgb(103, 107, 194) 99%);
+    background: url("../image/footer/footer-three.png") no-repeat center center/cover;
+    padding: 100px 0;
+    position: relative;
+    &::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: $theme-colortwo;
+        opacity: 0.4;
+    }
+    .Appily_footer_top {
+        .Appily_footer_widget {
+            a {
+                img {
+                }
+            }
+            .footer_para {
+                font-family: $font;
+                color: $white-color;
+            }
+            .Appily_footer_button {
+                color: $white-color;
+                &:hover {
+                    color: $themecolorthree;
+                }
+            }
+            // widget title
+            .Appily_footer_title {
+                font-family: $font;
+                color: $white-color;
+            }
+            // footer menu link
+            .Appily_footer_menu {
+                li {
+                    a {
+                        color: $white-color;
+                        font-family: $font;
+                        &::before {
+                            background: $themecolorthree;
+                        }
+                        &:hover {
+                            color: $themecolorthree;
+                        }
+                        &:hover::before {
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_border {
+        border-top: 2px solid #ebe9ed !important;
+    }
+    .Appily_footer_bottom {
+        .Appily_footer_bottom_inner {
+            .Appily_copyright {
+                .copy_right_text {
+                    font-family: $font;
+                    font-size: $f-size;
+                    color: $white-color;
+                    a {
+                        @include transition(0.5s);
+                        &:hover {
+                            color: $themecolorthree;
+                        }
+                    }
+                   
+                }
+            }
+        }
+        .Appily_footer_social {
+            .social_item {
+                li {
+                    a {
+                        color: $theme-colortwo;
+                        background: $white-color;
+                        &:hover {
+                            background: $theme-backround;
+                            color: $white-color;
+                            box-shadow: -4.77px 24.541px 87.4px 7.6px rgba(59, 29, 153, 0.3);
+                        }
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
